@@ -1,5 +1,5 @@
 //
-//  day02.cpp
+//  day002.cpp
 //  LearningOpenCV
 //
 //  Created by bingqiangzhou on 2021/1/24.
@@ -11,6 +11,10 @@
 
 using namespace cv;
 
+/* Day002-图像色彩空间转换
+色彩空间转换函数- cvtColor
+图像保存 - imwrite
+ */
 namespace Day002 {
     void mainFunction(){
         Mat src = imread("./data/images/test.png");

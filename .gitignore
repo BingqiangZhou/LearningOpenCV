@@ -5,3 +5,5 @@
 *.plist
 
 .DS_Store
+
+settings.json

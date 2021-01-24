@@ -11,11 +11,13 @@
 
 using namespace cv;
 
-namespace Day01 {
+namespace Day001 {
     void mainFunction(){
-        Mat src = imread("./data/images/test.png");
+//        Mat src = imread("./data/images/test.png");
+        Mat src = imread("./data/images/test.png", IMREAD_GRAYSCALE);
+        
         if (src.empty()) {
-            printf("could not load image...");
+            printf("could not load image...\n");
             return ;
         }
         namedWindow("hello, opencv", WINDOW_AUTOSIZE);

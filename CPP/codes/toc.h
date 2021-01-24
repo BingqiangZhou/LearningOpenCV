@@ -43,8 +43,17 @@ namespace Day003 {
 namespace Day004 {
     void mainFunction();
     cv::Mat arrayTraveral(cv::Mat src); // 数组遍历
-    cv::Mat pointerTraversal(cv::Mat src);
+    cv::Mat pointerTraversal(cv::Mat src); // 指针方式遍历
 }
 
+/* Day005-图像像素的算术操作
+ 加add、减subtract、乘multiply、除divide
+ 防止数据越界 saturate_cast
+ */
+namespace Day005 {
+    void mainFunction();
+    void addImplementByArray(cv::Mat m1, cv::Mat m2, cv::Mat result); // 自行实现加操作(数组遍历)
+    void addImplementByPointer(cv::Mat m1, cv::Mat m2, cv::Mat result); // 自行实现加操作（指针遍历）
+}
 
 #endif /* toc_h */

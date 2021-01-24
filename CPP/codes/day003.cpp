@@ -18,6 +18,11 @@ namespace Day003 {
     void mainFunction(){
         Mat src = imread("./data/images/test.png");
         
+        if(src.empty()){
+            printf("could not load image...\n");
+            return ;
+        }
+        
         // 克隆
         Mat m1 = src.clone();
         

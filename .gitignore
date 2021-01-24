@@ -1,5 +1,8 @@
+# floders
 *.xcodeproj/
 
+
+# files
 *.entitlements
 
 *.plist

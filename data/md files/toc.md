@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-01-24 20:12:50
+ * @LastEditTime : 2021-01-24 23:45:30
  * @Description  : 
 -->
 
@@ -14,3 +14,4 @@
 | 002 | 图像色彩空间转换 | 色彩空间转换函数- cvtColor </br> 图像保存 - imwrite | [C++](../../CPP/codes/day002.cpp)/[Python](../../Python/day002.py)
 | 003 | 图像对象的创建与赋值 | C++中Mat对象与创建 </br> Python中Numpy数组对象 | [C++](../../CPP/codes/day003.cpp)/[Python](../../Python/day003.py)
 | 004 | 图像像素的读写操作 | C++中的像素遍历与访问 </br> Python中的像素遍历与访问 | [C++](../../CPP/codes/day004.cpp)/[Python](../../Python/day004.py)
+| 005 | 图像像素的算术操作 | 加add、减subtract、乘multiply、除divide </br> 防止数据越界 saturate_cast(C++) | [C++](../../CPP/codes/day005.cpp)/[Python](../../Python/day005.py)

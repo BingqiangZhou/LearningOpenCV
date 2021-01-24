@@ -12,21 +12,26 @@
 using namespace cv;
 
 /* Day004-C++中的像素遍历与访问
- 数组遍历
- 指针方式遍历
+ 数组遍历 - src.at<T>(row, col)
+ 指针方式遍历 - src.ptr<T>(row)
  */
 namespace Day004 {
     void mainFunction(){
         Mat src = imread("./data/images/test.png");
         
+        if(src.empty()){
+            printf("could not load image...\n");
+            return ;
+        }
+        
         // 数组遍历
         Mat m1 = arrayTraveral(src);
-        namedWindow("arrayTraveral");
+//        namedWindow("arrayTraveral");
         imshow("arrayTraveral", m1);
         
         // 指针方式遍历
         Mat m2 = pointerTraversal(src);
-        namedWindow("pointerTraversal");
+//        namedWindow("pointerTraversal");
         imshow("pointerTraversal", m2);
         waitKey(0);
     };

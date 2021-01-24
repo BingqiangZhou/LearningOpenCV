@@ -91,12 +91,11 @@ namespace Day005 {
                     }
                     
                     // Vec 重载了运算符，可以直接加减乘除, 但无法使用saturate_cast防止溢出，saturate_cast不支持Vec
-//                    result.at<Vec3b>(row, col) = m1.at<Vec3b>(row, col) + m2.at<Vec3b>(row, col);
+                    // result.at<Vec3b>(row, col) = m1.at<Vec3b>(row, col) + m2.at<Vec3b>(row, col);
                 }else if (c == 1){
                     result.at<uchar>(row, col) = saturate_cast<uchar>(m1.at<uchar>(row, col) + m2.at<uchar>(row, col));
                     
-                    
-                    //                    result.at<uchar>(row, col) = m1.at<uchar>(row, col) + m2.at<uchar>(row, col);
+                    // result.at<uchar>(row, col) = m1.at<uchar>(row, col) + m2.at<uchar>(row, col);
                     // 第99行 直接相加，不使用saturate_cast不会报错，但数值被截断，但显示的图像与调用saturate_cast（防止数据溢出）的图像h会不一样。
                     // saturate_cast 相当于 if(data < 0) data = 0; else if(data > 255) data = 255;
                     // 第99行代码相当于强制截断，只取最低的8位,例如254(1111 1110)+105(0110 1001)=359(1 0110 0111)，强制截断得到103(0110 0111)

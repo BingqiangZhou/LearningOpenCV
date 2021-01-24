@@ -2,8 +2,11 @@
 Author       : Bingqiang Zhou
 Date         : 2021-01-25 01:12:22
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-01-25 02:01:04
-Description  : 
+LastEditTime : 2021-01-25 02:05:13
+Description  : 图像像素的算术操作
+    加add、减subtract、乘multiply、除divide
+    防止数据溢出 自行实现clamp，对应C++(saturate_cast<uchar>)
+    注意点：图像的数据类型、通道数目、大小必须相同  
 '''
 
 import cv2 as cv

@@ -1,0 +1,7 @@
+*.xcodeproj/
+
+*.entitlements
+
+*.plist
+
+.DS_Store

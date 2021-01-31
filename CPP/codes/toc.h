@@ -67,4 +67,17 @@ namespace Day006 {
     void customColorMap(cv::Mat &image);
 }
 
+/* Day007-图像像素的逻辑操作
+ - bitwise_and 与
+ - bitwise_xor 异或
+ - bitwise_or  或
+ 上面三个类似，都是针对两张图像的位操作
+
+ - bitwise_not 非
+ 针对输入图像, 图像取反操作，二值图像分析中经常用
+ */
+namespace Day007 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

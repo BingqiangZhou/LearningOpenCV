@@ -18,6 +18,7 @@ using namespace cv;
      - src 表示输入图像
      - dst表示输出图像
      - 匹配到的颜色LUT， OpenCV支持13种颜色风格的查找表映射
+ 主要用途：颜色匹配、伪色彩增强
  支持以下22种colormap：
      01. COLORMAP_AUTUMN
      02. COLORMAP_BONE

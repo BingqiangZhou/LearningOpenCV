@@ -56,4 +56,15 @@ namespace Day005 {
     void addImplementByPointer(cv::Mat m1, cv::Mat m2, cv::Mat result); // 自行实现加操作（指针遍历）
 }
 
+/* Day006-LUT(Look Up Table, 查找表)的作用与用法
+ applyColorMap(src, dst, COLORMAP)
+     - src 表示输入图像
+     - dst表示输出图像
+     - 匹配到的颜色LUT， OpenCV支持13种颜色风格的查找表映射
+ */
+namespace Day006 {
+    void mainFunction();
+    void customColorMap(cv::Mat &image);
+}
+
 #endif /* toc_h */

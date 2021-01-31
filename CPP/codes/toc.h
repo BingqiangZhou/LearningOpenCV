@@ -80,4 +80,13 @@ namespace Day007 {
     void mainFunction();
 }
 
+/* Day008-图像通道分离与合并
+ 通道分类 - split
+ 通道合并 - merge
+ 混合通道 - mixChannels 将输入数组的指定通道复制到输出数组的指定通道
+ */
+namespace Day008 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

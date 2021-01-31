@@ -89,4 +89,19 @@ namespace Day008 {
     void mainFunction();
 }
 
+/* Day009-图像色彩空间转换
+ 色彩空间与色彩空间转换
+ - RGB色彩空间  (red, green, blue)
+ - HSV色彩空间  (Hue色调, Saturation饱和度, Value明度)，参考：https://zh.wikipedia.org/zh-hans/HSL和HSV色彩空间
+ - YUV色彩空间  (Y 明亮度（Luminance、Luma），U和V則是色度（Chrominance、Chroma)参考：https://zh.wikipedia.org/wiki/YUV
+ - YCrCb色彩空间 是YUV压缩和偏移的版本，参考：https://zh.wikipedia.org/wiki/YCbCr
+
+ API知识点
+ - 色彩空间转换cvtColor
+ - 提取指定色彩范围区域inRange
+ */
+namespace Day009 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

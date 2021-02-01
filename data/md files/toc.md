@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-01 11:39:15
+ * @LastEditTime : 2021-02-01 21:45:19
  * @Description  : 
 -->
 
@@ -21,4 +21,4 @@
 | 009 | 图像色彩空间转换 |  色彩空间转换 - cvtColor </br> 提取指定色彩范围区域 - inRange | [C++](../../CPP/codes/day009.cpp)/[Python](../../Python/day009.py) |
 | 010 | 图像像素值统计 |  最大最小值 - minMaxLoc </br> 计算均值与标准方差 - meanStdDev | [C++](../../CPP/codes/day010.cpp)/[Python](../../Python/day010.py) |
 | 011 | 像素归一化 |  像素归一化 - normalize </br> NORM_MINMAX、NORM_INF、NORM_L1、NORM_L2 | [C++](../../CPP/codes/day011.cpp)/[Python](../../Python/day011.py) |
-
+| 012 | 视频文件的读写 |  视频文件读取、摄像头读取、视频流读取 - VideoCapture </br> 视频写出、文件保存 - VideoWriter | [C++](../../CPP/codes/day012.cpp)/[Python](../../Python/day012.py) |

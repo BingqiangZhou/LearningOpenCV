@@ -132,4 +132,17 @@ namespace Day011 {
     void printVector(std::vector<double> list, std::string title="values");//输出Vector中的数据
 }
 
+/** Day012-视频读写
+ VideoCapture 视频文件读取、摄像头读取、视频流读取
+ VideoWriter 视频写出、文件保存、
+ - CAP_PROP_FRAME_HEIGHT
+ - CAP_PROP_FRAME_WIDTH
+ - CAP_PROP_FRAME_COUNT
+ - CAP_PROP_FPS
+ 不支持音频编码与解码保存，不是一个音视频处理的库！主要是分析与解析视频内容。保存文件最大支持单个文件为2G
+ */
+namespace Day012 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

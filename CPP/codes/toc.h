@@ -119,5 +119,17 @@ namespace Day010 {
     void mainFunction();
 }
 
+/** Day011-像素归一化
+ OpenCV中四种归一化的方法
+ - NORM_MINMAX      x = (x - min) / (max - min)
+ - NORM_INF               x = x / max
+ - NORM_L1                 x = x / \sum(|x_i|) 除以L1-范数
+ - NORM_L2                 x = x / \sqrt(\sum(|x_i^2|)) 除以L2-范数
+ 最常用的就是NORM_MINMAX归一化方法。
+ */
+namespace Day011 {
+    void mainFunction();
+    void printVector(std::vector<double> list, std::string title="values");//输出Vector中的数据
+}
 
 #endif /* toc_h */

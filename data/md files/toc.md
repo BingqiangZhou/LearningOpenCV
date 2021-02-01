@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-01 02:14:41
+ * @LastEditTime : 2021-02-01 11:39:15
  * @Description  : 
 -->
 
@@ -20,3 +20,5 @@
 | 008 | 图像通道分离与合并 |  通道分类 - split、通道合并 - merge </br> 混合通道 - mixChannels | [C++](../../CPP/codes/day008.cpp)/[Python](../../Python/day008.py) |
 | 009 | 图像色彩空间转换 |  色彩空间转换 - cvtColor </br> 提取指定色彩范围区域 - inRange | [C++](../../CPP/codes/day009.cpp)/[Python](../../Python/day009.py) |
 | 010 | 图像像素值统计 |  最大最小值 - minMaxLoc </br> 计算均值与标准方差 - meanStdDev | [C++](../../CPP/codes/day010.cpp)/[Python](../../Python/day010.py) |
+| 011 | 像素归一化 |  像素归一化 - normalize </br> NORM_MINMAX、NORM_INF、NORM_L1、NORM_L2 | [C++](../../CPP/codes/day011.cpp)/[Python](../../Python/day011.py) |
+

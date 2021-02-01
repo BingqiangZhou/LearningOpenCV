@@ -104,4 +104,20 @@ namespace Day009 {
     void mainFunction();
 }
 
+/* Day010-图像像素值统计
+ 像素值统计
+ - 最小(min)
+ - 最大(max)
+ - 均值(mean)
+ - 标准方差(standard deviation)
+
+ API
+ - 最大最小值minMaxLoc
+ - 计算均值与标准方差meanStdDev
+ */
+namespace Day010 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

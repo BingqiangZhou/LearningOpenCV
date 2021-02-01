@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-01 01:05:00
+ * @LastEditTime : 2021-02-01 02:14:41
  * @Description  : 
 -->
 
@@ -19,3 +19,4 @@
 | 007 | 图像像素的逻辑操作 | 与 - bitwise_and、或 - bitwise_or、异或 - bitwise_xor </br> 非 - bitwise_not | [C++](../../CPP/codes/day007.cpp)/[Python](../../Python/day007.py)|
 | 008 | 图像通道分离与合并 |  通道分类 - split、通道合并 - merge </br> 混合通道 - mixChannels | [C++](../../CPP/codes/day008.cpp)/[Python](../../Python/day008.py) |
 | 009 | 图像色彩空间转换 |  色彩空间转换 - cvtColor </br> 提取指定色彩范围区域 - inRange | [C++](../../CPP/codes/day009.cpp)/[Python](../../Python/day009.py) |
+| 010 | 图像像素值统计 |  最大最小值 - minMaxLoc </br> 计算均值与标准方差 - meanStdDev | [C++](../../CPP/codes/day010.cpp)/[Python](../../Python/day010.py) |

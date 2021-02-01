@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-02 02:19:05
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-02 03:22:48
+LastEditTime : 2021-02-02 03:31:49
 Description  : 视频文件的读写
     视频读写
     VideoCapture 视频文件读取、摄像头读取、视频流读取
@@ -35,7 +35,7 @@ print("height: {}, width: {}, frames: {}, fps: {}, fourcc: {}".format(height, wi
 # fourcc设置为-1，可以弹出选择编解码器的对话框（第一次运行时可以使用-1，来确定本机存在哪些编解码器）
 # codec参考：https://www.fourcc.org/codecs.php
 # macOS 下可用的codec：https://gist.github.com/takuma7/44f9ecb028ff00e2132e
-writer = cv.VideoWriter("../data/videos/test.mp4", cv.VideoWriter_fourcc(*'mp4v'), fps, (int(height), int(width)), True)
+writer = cv.VideoWriter("../data/videos/test.mp4", cv.VideoWriter_fourcc(*'DIVX'), fps, (int(height), int(width)), True)
 
 while True:
     ret, frame = capture.read() # 循环读取视频帧
@@ -55,22 +55,10 @@ capture.release()
 
 
 # 使用摄像头录制视频
-# 在macOS下可能遇到权限不足的情况：报错如下：
-# [access] This app has crashed because it attempted to access privacy-sensitive data without a usage description.  
-# The app‘s Info.plist must contain an NSCameraUsageDescription key with a string value explaining to the user how the app uses this data.
-# 两种方法解决：
-# 第一种：进入到Products文件夹中打开exec文件即会申请放开权限，允许即可。
-# 第二种：创建info.plist文件添加一下两个key，并复制到Products文件夹中（如果有clean项目的话，需要重新复制）
-#  <key>NSCameraUsageDescription</key>
-#  <string>USE</string>
-#  <key>Privacy - Camera Usage Description</key>
-#  <string>YES</string>
-# info.plist 在data/others文件夹下可以找到，直接复制到Products文件夹中即可
-
 camera_capture = cv.VideoCapture(0) # 打开摄像头
 
 camera_writer = cv.VideoWriter()
-camera_writer.open("../data/videos/camera.avi", cv.VideoWriter_fourcc(*'h264'), 30, (500, 500), True)
+camera_writer.open("../data/videos/camera.avi", cv.VideoWriter_fourcc(*'MJPG'), 30, (500, 500), True)
 
 
 while True:

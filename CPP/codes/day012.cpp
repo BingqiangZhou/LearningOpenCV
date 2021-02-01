@@ -62,7 +62,7 @@ namespace Day012 {
 
         
         // 使用摄像头录制视频
-        // 在macOS下可能遇到权限不足的情况：报错如下：
+        // 在macOS下，Xcode中运行可能遇到权限不足的情况：报错如下：
         // [access] This app has crashed because it attempted to access privacy-sensitive data without a usage description.
         // The app‘s Info.plist must contain an NSCameraUsageDescription key with a string value explaining to the user how the app uses this data.
         // 两种方法解决：

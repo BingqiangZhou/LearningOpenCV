@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-02 02:19:05
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-02 03:31:49
+LastEditTime : 2021-02-02 04:55:43
 Description  : 视频文件的读写
     视频读写
     VideoCapture 视频文件读取、摄像头读取、视频流读取
@@ -75,3 +75,5 @@ while True:
 # 释放资源
 camera_writer.release()
 camera_capture.release()
+
+cv.destroyAllWindows()

@@ -8,7 +8,7 @@
 #include <iostream>
 #include "codes/toc.h"
 
-using namespace Day012; // modify this namespace to run the code of specific day.
+using namespace Day013; // modify this namespace to run the code of specific day.
 
 int main(int argc, const char * argv[]) {
     

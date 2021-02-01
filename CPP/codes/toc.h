@@ -145,4 +145,20 @@ namespace Day012 {
     void mainFunction();
 }
 
+/** Day013-图像翻转(Image Flip)
+ 图像翻转的本质像素映射，OpenCV支持三种图像翻转方式
+ - X轴翻转，flipcode = 0
+ - Y轴翻转, flipcode = 1
+ - XY轴翻转, flipcode = -1
+
+ 相关的API
+ flip
+ - src输入参数
+ - dst 翻转后图像
+ - flipcode
+ */
+namespace Day013 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

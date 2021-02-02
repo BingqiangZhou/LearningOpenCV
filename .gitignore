@@ -1,6 +1,8 @@
 # floders
 *.xcodeproj/
 
+.vscode/
+
 
 # files
 *.entitlements

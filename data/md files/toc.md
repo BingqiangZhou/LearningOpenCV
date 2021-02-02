@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-02 23:50:04
+ * @LastEditTime : 2021-02-03 00:24:23
  * @Description  : 
 -->
 
@@ -24,4 +24,4 @@
 | 012 | 视频文件的读写 |  视频文件读取、摄像头读取、视频流读取 - VideoCapture </br> 视频写出、文件保存 - VideoWriter | [C++](../../CPP/codes/day012.cpp) / [Python](../../Python/day012.py) |
 | 013 | 图像翻转(Image Flip) |  图像翻转 - flip </br> flipcode参数 - X轴翻转(0)、Y轴翻转(1)、 XY轴翻转(-1) | [C++](../../CPP/codes/day013.cpp) / [Python](../../Python/day013.py) |
 | 014 | 图像插值(Image Interpolation) | 改变图像大小 - resize </br> INTER_NEAREST(0)、INTER_LINEAR(1) </br>  INTER_CUBIC(2)、INTER_LANCZOS4(4) | [C++](../../CPP/codes/day014.cpp) / [Python](../../Python/day014.py) |
-| 015 | 几何形状绘制 | 绘制几何形状 - line、rectangle、circle、ellipse </br> 随机数方法 - (c++)rng.uniform(a, b)、(python)np.random.uniform(a, b) | [C++](../../CPP/codes/day015.cpp) / [Python](../../Python/day015.py) |
+| 015 | 几何形状绘制 | 绘制几何形状 - line、rectangle、circle、ellipse </br> 随机数方法 - (c++)rng. 、(python)np.random. | [C++](../../CPP/codes/day015.cpp) / [Python](../../Python/day015.py) |

@@ -87,4 +87,10 @@ namespace Day014 {
     void mainFunction();
 }
 
+// Day015-几何形状绘制
+namespace Day015 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

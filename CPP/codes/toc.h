@@ -92,5 +92,9 @@ namespace Day015 {
     void mainFunction();
 }
 
+//Day016-图像ROI与ROI操作
+namespace Day016 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

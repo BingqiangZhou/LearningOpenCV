@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-03 00:24:23
+ * @LastEditTime : 2021-02-03 13:59:19
  * @Description  : 
 -->
 
@@ -25,3 +25,4 @@
 | 013 | 图像翻转(Image Flip) |  图像翻转 - flip </br> flipcode参数 - X轴翻转(0)、Y轴翻转(1)、 XY轴翻转(-1) | [C++](../../CPP/codes/day013.cpp) / [Python](../../Python/day013.py) |
 | 014 | 图像插值(Image Interpolation) | 改变图像大小 - resize </br> INTER_NEAREST(0)、INTER_LINEAR(1) </br>  INTER_CUBIC(2)、INTER_LANCZOS4(4) | [C++](../../CPP/codes/day014.cpp) / [Python](../../Python/day014.py) |
 | 015 | 几何形状绘制 | 绘制几何形状 - line、rectangle、circle、ellipse </br> 随机数方法 - (c++)rng. 、(python)np.random. | [C++](../../CPP/codes/day015.cpp) / [Python](../../Python/day015.py) |
+| 016 | 图像ROI与ROI操作 | ROI区域提取 </br> ROI区域操作 | [C++](../../CPP/codes/day016.cpp) / [Python](../../Python/day016.py) |

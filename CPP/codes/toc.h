@@ -92,9 +92,17 @@ namespace Day015 {
     void mainFunction();
 }
 
-//Day016-图像ROI与ROI操作
+// Day016-图像ROI与ROI操作
 namespace Day016 {
     void mainFunction();
 }
+
+// Day017-图像直方图
+namespace Day017 {
+    void mainFunction();
+    void showHist(cv::Mat hist, std::string title="hist");
+    void showHist(std::vector<cv::Mat> hist_list, std::string title="hist");
+}
+
 
 #endif /* toc_h */

@@ -104,5 +104,9 @@ namespace Day017 {
     void showHist(std::vector<cv::Mat> hist_list, std::string title="hist");
 }
 
+// Day018-图像直方图均衡化
+namespace Day018 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

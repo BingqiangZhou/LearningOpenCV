@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-09 00:47:57
+ * @LastEditTime : 2021-02-09 01:16:16
  * @Description  : 
 -->
 
@@ -26,4 +26,5 @@
 | 014 | 图像插值(Image Interpolation) | 改变图像大小 - resize</br>INTER_NEAREST(0)、INTER_LINEAR(1) </br>  INTER_CUBIC(2)、INTER_LANCZOS4(4) | [C++](../../CPP/codes/day014.cpp) / [Python](../../Python/day014.py) |
 | 015 | 几何形状绘制 | 绘制几何形状 - line、rectangle、circle、ellipse</br>随机数方法 - (c++)rng. 、(python)np.random. | [C++](../../CPP/codes/day015.cpp) / [Python](../../Python/day015.py) |
 | 016 | 图像ROI与ROI操作 | ROI区域提取</br>ROI区域操作 | [C++](../../CPP/codes/day016.cpp) / [Python](../../Python/day016.py) |
-| 017 | 图像直方图 | 灰度直方图、颜色直方图</br>calcHist | [C++](../../CPP/codes/day017.cpp) / [Python](../../Python/day017.py) |
+| 017 | 图像直方图 | 计算图像直方图 - calcHist | [C++](../../CPP/codes/day017.cpp) / [Python](../../Python/day017.py) |
+| 018 | 图像直方图均衡化 | 直方图均衡化 - equalizeHist | [C++](../../CPP/codes/day018.cpp) / [Python](../../Python/day018.py) |

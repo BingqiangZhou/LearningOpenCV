@@ -109,4 +109,22 @@ namespace Day018 {
     void mainFunction();
 }
 
+/**Day019-图像直方图比较
+ 图像直方图比较，就是计算两幅图像的直方图数据，比较两组数据的相似性，从而得到两幅图像之间的相似程度，
+ 直方图比较在早期的CBIR(Content-based image retrieval, 基于内容的图像检索 )中是应用很常见的技术手段，
+ 通常会结合边缘处理、词袋等技术一起使用。
+
+ OpenCV中直方图比较的API很简单
+ compareHist(hist1, hist2, method)
+     -常见比较方法有
+         相关性：越接近+1越相似，越不相似越接近-1
+         卡方： 值越小越相似
+         交叉：不太准
+         巴氏距离：越接近0则越相似
+     具体公式可见：HistCompMethods，https://docs.opencv.org/master/d6/dc7/group__imgproc__hist.html#ga994f53817d621e2e4228fc646342d386
+ */
+namespace Day019 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

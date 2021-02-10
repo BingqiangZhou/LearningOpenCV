@@ -126,4 +126,9 @@ namespace Day021 {
     cv::Mat custom_3x3_blur(cv::Mat src);
 }
 
+// Day002-图像均值模糊与高斯模糊
+namespace Day022 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

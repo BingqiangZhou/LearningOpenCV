@@ -15,5 +15,6 @@ src = cv.imread("../data/images/lena.jpg")
 rows = 1
 cols = 2
 plt.subplot(rows, cols, 1)
+plt.title("src")
 plt.imshow(src[:, :, ::-1])
 plt.show()

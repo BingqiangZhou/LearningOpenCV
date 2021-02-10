@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-10 19:26:53
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-10 19:37:16
+LastEditTime : 2021-02-10 21:59:04
 Description  : template
 '''
 
@@ -16,5 +16,6 @@ rows = 1
 cols = 2
 plt.subplot(rows, cols, 1)
 plt.title("src")
+plt.axis("off")
 plt.imshow(src[:, :, ::-1])
 plt.show()

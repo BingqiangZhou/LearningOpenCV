@@ -131,4 +131,9 @@ namespace Day022 {
     void mainFunction();
 }
 
+// Day023-图像中值模糊
+namespace Day023 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

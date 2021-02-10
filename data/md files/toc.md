@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-09 19:12:58
+ * @LastEditTime : 2021-02-10 03:01:25
  * @Description  : 
 -->
 
@@ -30,3 +30,4 @@
 | 018 | 图像直方图均衡化 | 直方图均衡化 - equalizeHist | [C++](../../CPP/codes/day018.cpp) / [Python](../../Python/day018.py) |
 | 019 | 图像直方图比较 | 图像直方图比较 - compareHist</br>比较方法 - 相关性、卡方、交叉、巴氏距离 | [C++](../../CPP/codes/day019.cpp) / [Python](../../Python/day019.py) |
 | 020 | 图像直方图反向投影 | 图像直方图反向投影 - calcBackProject | [C++](../../CPP/codes/day020.cpp) / [Python](../../Python/day020.py) |
+| 021 | 图像卷积操作 | 图像直方图反向投影 - calcBackProject | [C++](../../CPP/codes/day021.cpp) / [Python](../../Python/day021.py) |

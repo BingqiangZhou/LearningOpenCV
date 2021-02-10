@@ -120,4 +120,10 @@ namespace Day020 {
     void backProject(cv::Mat roi_image, cv::Mat target_model, bool show_fig=true);
 }
 
+// Day021-图像卷积操作
+namespace Day021 {
+    void mainFunction();
+    cv::Mat custom_3x3_blur(cv::Mat src);
+}
+
 #endif /* toc_h */

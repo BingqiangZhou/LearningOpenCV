@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-10 19:20:49
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-10 20:42:12
+LastEditTime : 2021-02-11 14:26:00
 Description  : 图像卷积操作
     图像卷积可以看成是一个窗口区域在另外一个大的图像上移动，对每个窗口覆盖的区域都进行点乘得到的值作为中心像素点的输出值。
     窗口的移动是从左到右，从上到下。窗口可以理解成一个指定大小的二维矩阵，里面有预先指定的值。
@@ -18,22 +18,22 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def custom_3x3_blur(image):
-    w, h, c = image.shape
+    h, w, c = image.shape
     dst = np.copy(image)
-    for col in range(1, w - 1):
-        for row in range(1, h - 1):
-            v1 = np.int32(image[col - 1, row - 1]) # v1-v9加到一起可能超过255，为了防止溢出，加大位宽
-            v2 = np.int32(image[col, row - 1])
-            v3 = np.int32(image[col + 1, row - 1])
-            v4 = np.int32(image[col - 1, row])
-            v5 = np.int32(image[col, row])
-            v6 = np.int32(image[col + 1, row])
-            v7 = np.int32(image[col - 1, row + 1])
-            v8 = np.int32(image[col, row + 1])
-            v9 = np.int32(image[col + 1, row + 1])
+    for row in range(1, h - 1):
+        for col in range(1, w - 1):
+            v1 = np.int32(image[row - 1, col - 1]) # v1-v9加到一起可能超过255，为了防止溢出，加大位宽
+            v2 = np.int32(image[row - 1, col])
+            v3 = np.int32(image[row - 1, col + 1])
+            v4 = np.int32(image[row, col - 1])
+            v5 = np.int32(image[row, col])
+            v6 = np.int32(image[row, col + 1])
+            v7 = np.int32(image[row + 1, col - 1])
+            v8 = np.int32(image[row + 1, col])
+            v9 = np.int32(image[row + 1, col + 1])
             
             for i in range(c):
-                dst[col, row, i] = (v1[i] + v2[i] + v3[i] + v4[i] + v5[i] + v6[i] + v7[i] + v8[i] + v9[i]) // 9
+                dst[row, col, i] = (v1[i] + v2[i] + v3[i] + v4[i] + v5[i] + v6[i] + v7[i] + v8[i] + v9[i]) // 9
 
     return dst
 

@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-09 11:03:30
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-09 12:59:06
+LastEditTime : 2021-02-11 14:23:32
 Description  : 图像直方图均衡化
     图像直方图均衡化可以用于图像增强、对输入图像进行直方图均衡化处理，提升后续对象检测的准确率在OpenCV人脸检测的代码演示中已经很常见。
     此外对医学影像图像与卫星遥感图像也经常通过直方图均衡化来提升图像质量。
@@ -21,7 +21,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def custom_equalizeHist(image, show_figure=True):
-    w, h = image.shape[:2]
+    h, w = image.shape[:2]
     if image.ndim > 1:
         print("cvt to gray")
         image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
@@ -30,9 +30,9 @@ def custom_equalizeHist(image, show_figure=True):
     equalized_hist = np.zeros((256), np.uint)
     
     # 计算各个通道的直方图
-    for col in range(w):
-        for row in range(h):
-            hist[image[col, row]] += 1
+    for row in range(h):
+        for col in range(w):
+            hist[image[row, col]] += 1
 
     # 直方图均衡化
     hists_cumsum = np.cumsum(hist)

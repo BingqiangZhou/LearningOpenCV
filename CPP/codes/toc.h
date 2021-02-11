@@ -136,4 +136,11 @@ namespace Day023 {
     void mainFunction();
 }
 
+// Day024-图像噪声
+namespace Day024 {
+    void mainFunction();
+    cv::Mat generateSaltPepperNoise(cv::Mat image);
+    cv::Mat generateGaussianNoise(cv::Mat image);
+}
+
 #endif /* toc_h */

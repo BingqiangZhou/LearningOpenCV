@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-10 21:55:13
+ * @LastEditTime : 2021-02-11 14:14:46
  * @Description  : 
 -->
 
@@ -33,3 +33,4 @@
 | 021 | 图像卷积操作 | 均值模糊 - blur</br>卷积核所有值为1 / (ksize.width * ksize.height) | [C++](../../CPP/codes/day021.cpp) / [Python](../../Python/day021.py) |
 | 022 | 图像均值模糊与高斯模糊 | 均值模糊 - blur</br>高斯模糊 - GaussianBlur | [C++](../../CPP/codes/day022.cpp) / [Python](../../Python/day022.py) |
 | 023 | 图像中值模糊 | 中值模糊 - medianBlur | [C++](../../CPP/codes/day023.cpp) / [Python](../../Python/day023.py) |
+| 024 | 图像噪声 | 图像椒盐噪声</br>图像高斯噪声 | [C++](../../CPP/codes/day024.cpp) / [Python](../../Python/day024.py) |

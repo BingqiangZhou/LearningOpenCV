@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-14 12:22:22
+ * @LastEditTime : 2021-02-14 12:44:52
  * @Description  : 
 -->
 
@@ -34,5 +34,6 @@
 | 022 | 图像均值模糊与高斯模糊 | 均值模糊 - blur</br>高斯模糊 - GaussianBlur | [C++](../../CPP/codes/day022.cpp) / [Python](../../Python/day022.py) |
 | 023 | 图像中值模糊 | 中值模糊 - medianBlur | [C++](../../CPP/codes/day023.cpp) / [Python](../../Python/day023.py) |
 | 024 | 图像噪声 | 图像椒盐噪声</br>图像高斯噪声 | [C++](../../CPP/codes/day024.cpp) / [Python](../../Python/day024.py) |
-| 025 | 图像去噪声 | 均值去噪声</br>高斯模糊去噪声</br>非局部均值去噪声 | [C++](../../CPP/codes/day025.cpp) / [Python](../../Python/day025.py) |
+| 025 | 图像去噪声 | 均值去噪声 - blur、中值去噪声 - medianBlur</br>高斯模糊去噪声 - GaussianBlur</br>非局部均值去噪声 - fastNlMeansDenoisingColored | [C++](../../CPP/codes/day025.cpp) / [Python](../../Python/day025.py) |
 | 026 | 高斯双边模糊 | 高斯双边模糊 - bilateralFilter | [C++](../../CPP/codes/day026.cpp) / [Python](../../Python/day026.py) |
+| 027 | 均值迁移模糊 | 均值迁移模糊 - pyrMeanShiftFiltering | [C++](../../CPP/codes/day027.cpp) / [Python](../../Python/day027.py) |

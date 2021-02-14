@@ -155,5 +155,9 @@ namespace Day026 {
     void mainFunction();
 }
 
+//Day027-边缘保留滤波算法 – 均值迁移模糊(mean-shift blur)
+namespace Day027 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

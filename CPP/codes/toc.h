@@ -169,4 +169,10 @@ namespace Day028 {
     int getblockSum(cv::Mat &sum, int x1, int y1, int x2, int y2, int i);
 }
 
+// Day029-快速的图像边缘滤波算法
+namespace Day029 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

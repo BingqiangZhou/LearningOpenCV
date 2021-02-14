@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-14 12:44:52
+ * @LastEditTime : 2021-02-14 14:20:24
  * @Description  : 
 -->
 
@@ -37,3 +37,4 @@
 | 025 | 图像去噪声 | 均值去噪声 - blur、中值去噪声 - medianBlur</br>高斯模糊去噪声 - GaussianBlur</br>非局部均值去噪声 - fastNlMeansDenoisingColored | [C++](../../CPP/codes/day025.cpp) / [Python](../../Python/day025.py) |
 | 026 | 高斯双边模糊 | 高斯双边模糊 - bilateralFilter | [C++](../../CPP/codes/day026.cpp) / [Python](../../Python/day026.py) |
 | 027 | 均值迁移模糊 | 均值迁移模糊 - pyrMeanShiftFiltering | [C++](../../CPP/codes/day027.cpp) / [Python](../../Python/day027.py) |
+| 028 | 图像积分图算法 | 图像积分图 - integral | [C++](../../CPP/codes/day028.cpp) / [Python](../../Python/day028.py) |

@@ -150,14 +150,23 @@ namespace Day025 {
     cv::Mat generateGaussianNoise(cv::Mat image);
 }
 
-//Day026-边缘保留滤波算法 – 高斯双边模糊
+// Day026-边缘保留滤波算法 – 高斯双边模糊
 namespace Day026 {
     void mainFunction();
 }
 
-//Day027-边缘保留滤波算法 – 均值迁移模糊(mean-shift blur)
+// Day027-边缘保留滤波算法 – 均值迁移模糊(mean-shift blur)
 namespace Day027 {
     void mainFunction();
+}
+
+// Day028-图像积分图算法
+namespace Day028 {
+    void mainFunction();
+    // 通过和(sum)表来计算均值模糊
+    cv::Mat blur_demo(cv::Mat &image, cv::Mat &sum);
+    // 根据和（sum）表计算卷积框内的像素值的和
+    int getblockSum(cv::Mat &sum, int x1, int y1, int x2, int y2, int i);
 }
 
 #endif /* toc_h */

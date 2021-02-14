@@ -150,4 +150,10 @@ namespace Day025 {
     cv::Mat generateGaussianNoise(cv::Mat image);
 }
 
+//Day026-边缘保留滤波算法 – 高斯双边模糊
+namespace Day026 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

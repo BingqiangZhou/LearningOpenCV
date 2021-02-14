@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-11 15:35:01
+ * @LastEditTime : 2021-02-14 12:22:22
  * @Description  : 
 -->
 
@@ -35,3 +35,4 @@
 | 023 | 图像中值模糊 | 中值模糊 - medianBlur | [C++](../../CPP/codes/day023.cpp) / [Python](../../Python/day023.py) |
 | 024 | 图像噪声 | 图像椒盐噪声</br>图像高斯噪声 | [C++](../../CPP/codes/day024.cpp) / [Python](../../Python/day024.py) |
 | 025 | 图像去噪声 | 均值去噪声</br>高斯模糊去噪声</br>非局部均值去噪声 | [C++](../../CPP/codes/day025.cpp) / [Python](../../Python/day025.py) |
+| 026 | 高斯双边模糊 | 高斯双边模糊 - bilateralFilter | [C++](../../CPP/codes/day026.cpp) / [Python](../../Python/day026.py) |

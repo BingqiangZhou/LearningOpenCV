@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-15 20:22:21
+ * @LastEditTime : 2021-02-15 20:57:48
  * @Description  : 
 -->
 
@@ -46,3 +46,4 @@
 | 034 | 图像锐化 | 锐化的本质是拉普拉斯滤波与原图权重像素叠加 | [C++](../../CPP/codes/day034.cpp) / [Python](../../Python/day034.py) |
 | 035 | USM锐化增强算法 | USM(Unsharpen Mask)锐化增强算法</br>权重叠加 - addWeighted | [C++](../../CPP/codes/day035.cpp) / [Python](../../Python/day035.py) |
 | 036 | Canny边缘检测器 | Canny边缘检测器 - Canny | [C++](../../CPP/codes/day036.cpp) / [Python](../../Python/day036.py) |
+| 037 | 图像金字塔 | reduce操作 - pyrDown</br>expand操作 - pyrUp | [C++](../../CPP/codes/day037.cpp) / [Python](../../Python/day037.py) |

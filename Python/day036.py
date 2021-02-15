@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-15 20:23:19
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-15 20:35:49
+LastEditTime : 2021-02-15 21:03:18
 Description  : Canny边缘检测器
     1986年，JOHN CANNY 提出一个很好的边缘检测算法，被称为Canny编边缘检测器。
     Canny边缘检测器是一种经典的图像边缘检测与提取算法，应用广泛，主要是因为Canny边缘检测具备以下特点：
@@ -45,7 +45,7 @@ dst = cv.Canny(src, 100, 300)
 rows = 1
 cols = 2
 images = [src, dst]
-titles = ["original image", "usm"]
+titles = ["original image", "Canny"]
 for index, image in enumerate(images):
     plt.subplot(rows, cols, index + 1)
     if index >= len(titles):

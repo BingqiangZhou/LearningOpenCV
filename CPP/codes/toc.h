@@ -209,4 +209,10 @@ namespace Day036 {
     void mainFunction();
 }
 
+// Day037-图像金字塔
+namespace Day037 {
+    void mainFunction();
+    std::vector<cv::Mat> image_pyramid(cv::Mat src, int level, bool upsample);
+}
+
 #endif /* toc_h */

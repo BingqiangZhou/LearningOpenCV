@@ -179,5 +179,9 @@ namespace Day030 {
     void mainFunction();
 }
 
+// Day031-图像梯度 – Sobel算子
+namespace Day031 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

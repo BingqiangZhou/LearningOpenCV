@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-15 13:15:18
+ * @LastEditTime : 2021-02-15 13:41:33
  * @Description  : 
 -->
 
@@ -40,3 +40,4 @@
 | 028 | 图像积分图算法 | 图像积分图 - integral | [C++](../../CPP/codes/day028.cpp) / [Python](../../Python/day028.py) |
 | 029 | 快速的图像边缘滤波算法 | 快速的图像边缘滤波 - edgePreservingFilter | [C++](../../CPP/codes/day029.cpp) / [Python](../../Python/day029.py) |
 | 030 | OpenCV自定义的滤波器 | 自定义滤波器 - filter2D</br>缩放，绝对值，转换为8位 - convertScaleAbs | [C++](../../CPP/codes/day030.cpp) / [Python](../../Python/day030.py) |
+| 031 | 图像梯度–Sobel算子 | Sobel算子 - Sobel</br>Scharr算子 - Scharr | [C++](../../CPP/codes/day031.cpp) / [Python](../../Python/day031.py) |

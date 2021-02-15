@@ -189,5 +189,9 @@ namespace Day032 {
     void mainFunction();
 }
 
+// Day033-图像梯度 – 拉普拉斯算子(二阶导数算子)
+namespace Day033 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

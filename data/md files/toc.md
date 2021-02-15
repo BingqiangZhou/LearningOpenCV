@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-15 14:27:34
+ * @LastEditTime : 2021-02-15 15:59:14
  * @Description  : 
 -->
 
@@ -42,3 +42,4 @@
 | 030 | OpenCV自定义的滤波器 | 自定义滤波器 - filter2D</br>缩放，绝对值，转换为8位 - convertScaleAbs | [C++](../../CPP/codes/day030.cpp) / [Python](../../Python/day030.py) |
 | 031 | 图像梯度–Sobel算子 | Sobel算子</br>Scharr算子 | [C++](../../CPP/codes/day031.cpp) / [Python](../../Python/day031.py) |
 | 032 | 图像梯度–更多梯度算子 | Robert算子</br>Prewitt算子 | [C++](../../CPP/codes/day032.cpp) / [Python](../../Python/day032.py) |
+| 033 | 图像梯度–拉普拉斯算子 | 拉普拉斯算子 - 四邻域、八邻域 | [C++](../../CPP/codes/day033.cpp) / [Python](../../Python/day033.py) |

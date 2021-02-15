@@ -199,4 +199,10 @@ namespace Day034 {
     void mainFunction();
 }
 
+// Day035-USM 锐化增强算法
+namespace Day035 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

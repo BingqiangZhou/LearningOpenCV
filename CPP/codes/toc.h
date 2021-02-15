@@ -184,4 +184,10 @@ namespace Day031 {
     void mainFunction();
 }
 
+// Day032-图像梯度 – 更多梯度算子
+namespace Day032 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

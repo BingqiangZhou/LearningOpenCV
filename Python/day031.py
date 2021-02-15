@@ -2,21 +2,21 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-15 13:17:44
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-15 13:40:30
+LastEditTime : 2021-02-15 14:13:55
 Description  : 图像梯度 – Sobel算子
     卷积的作用除了实现图像模糊或者去噪，还可以寻找一张图像上所有梯度信息，这些梯度信息是图像的最原始特征数据，
     进一步处理之后就可以生成一些比较高级的特征用来表示一张图像实现基于图像特征的匹配，图像分类等应用。
     Sobel算子是一种很经典的图像梯度提取算子，其本质是基于图像空间域卷积，背后的思想是图像一阶导数算子的理论支持。
     
     Sobel算子X方向  Y方向 
-    -1 0 +1     -1 -2 -1
-    -2 0 +2     0  0  0
-    -1 0 +1     +1 +2 +1
+    -1 -2 -1    -1 0 +1
+    0  0  0     -2 0 +2
+    +1 +2 +1    -1 0 +1
 
     Scharr算子X方向  Y方向 
-    -3 0 +3     -3 -10 -3
-    -10 0 +10     0  0  0
-    -3 0 +3     +3 +10 +3
+    -3 -10 -3   -3 0 +3     
+    0  0  0     -10 0 +10   
+    +3 +10 +3   -3 0 +3     
     
     OpenCV实现了基于Sobel算子提取图像梯度的API，表示与解释如下：
         void cv::Sobel(
@@ -32,6 +32,10 @@ Description  : 图像梯度 – Sobel算子
         )		
     Python:
         dst = cv.Sobel(src, ddepth, dx, dy[, dst[, ksize[, scale[, delta[, borderType]]]]])
+    
+    参考：
+        https://blog.csdn.net/zaishuiyifangxym/article/details/89840396
+        https://blog.csdn.net/swj110119/article/details/51777422
 '''
 
 import cv2 as cv

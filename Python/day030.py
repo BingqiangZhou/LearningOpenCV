@@ -2,14 +2,14 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-15 10:25:55
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-15 13:12:55
+LastEditTime : 2021-02-15 14:23:08
 Description  : OpenCV中的自定义滤波器
     图像卷积最主要功能有图像模糊、锐化、梯度边缘等，前面已经分享图像卷积模糊的相关知识点，
     OpenCV除了支持上述的卷积模糊（均值与边缘保留）还支持自定义卷积核，实现自定义的滤波操作。
     自定义卷积核常见的主要是均值、锐化、梯度等算子。下面的三个自定义卷积核分别可以实现卷积的均值模糊、锐化、梯度功能。
 
-    1，	1， 1      0， -1， 0        1， 0
-    1，	1， 1      -1， 5， -1        0  -1
+    1，	1， 1      0， -1， 0         0， -1
+    1，	1， 1      -1， 5， -1        1  0
     1，	1， 1      0， -1， 0 
 
     OpenCV自定义滤波器API:
@@ -36,11 +36,14 @@ kernel = np.ones((15, 15)) / 225
 dst_blur = cv.filter2D(src, ddepth=-1, kernel=kernel)
 
 # 锐化
-kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
+kernel = np.array([[0, -1, 0], 
+                    [-1, 5, -1], 
+                    [0, -1, 0]])
 dst_sharpen = cv.filter2D(src, ddepth=-1, kernel=kernel)
 
 # 梯度边缘
-kernel = np.array([[0, -1], [1, 0]])
+kernel = np.array([[0, -1], 
+                    [1, 0]])
 # dst_gradient_edge = cv.filter2D(src, ddepth=-1, kernel=kernel)
 dst_gradient_edge = cv.filter2D(src, ddepth=cv.CV_32F, kernel=kernel)
 dst_gradient_edge = cv.convertScaleAbs(dst_gradient_edge) # 缩放，计算绝对值，然后将结果转换为8位。 

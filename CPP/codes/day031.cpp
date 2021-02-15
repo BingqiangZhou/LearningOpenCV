@@ -39,6 +39,9 @@ using namespace cv;
      double delta = 0, // 对输出结果图像加上常量值
      int borderType = BORDER_DEFAULT
      )
+ 参考：
+     https://blog.csdn.net/zaishuiyifangxym/article/details/89840396
+     https://blog.csdn.net/swj110119/article/details/51777422
  */
 namespace Day031 {
     void mainFunction(){

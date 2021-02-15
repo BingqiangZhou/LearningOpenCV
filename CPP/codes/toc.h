@@ -204,5 +204,9 @@ namespace Day035 {
     void mainFunction();
 }
 
+// Day036-Canny边缘检测器
+namespace Day036 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

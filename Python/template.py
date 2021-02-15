@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-10 19:26:53
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-11 15:17:53
+LastEditTime : 2021-02-15 20:32:04
 Description  : template
 '''
 
@@ -23,5 +23,8 @@ for index, image in enumerate(images):
     else:
         plt.title(titles[index])
     plt.axis("off")
-    plt.imshow(image[:, :, ::-1])
+    if image.ndim > 2:
+        plt.imshow(image[:, :, ::-1])
+    else:
+        plt.imshow(image, cmap="gray")
 plt.show()

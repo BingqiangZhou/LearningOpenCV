@@ -215,4 +215,10 @@ namespace Day037 {
     std::vector<cv::Mat> image_pyramid(cv::Mat src, int level, bool upsample);
 }
 
+// Day038-拉普拉斯金字塔
+namespace Day038 {
+    void mainFunction();
+    std::vector<cv::Mat> laplaian_pyramid(cv::Mat src, int level);
+}
+
 #endif /* toc_h */

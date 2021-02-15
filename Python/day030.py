@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-15 10:25:55
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-15 13:03:13
+LastEditTime : 2021-02-15 13:12:55
 Description  : OpenCV中的自定义滤波器
     图像卷积最主要功能有图像模糊、锐化、梯度边缘等，前面已经分享图像卷积模糊的相关知识点，
     OpenCV除了支持上述的卷积模糊（均值与边缘保留）还支持自定义卷积核，实现自定义的滤波操作。
@@ -21,6 +21,7 @@ Description  : OpenCV中的自定义滤波器
         dst	=	cv.convertScaleAbs(	src[, dst[, alpha[, beta]]]	)
         \texttt{dst} (I)= \texttt{saturate\_cast<uchar>} (| \texttt{src} (I)* \texttt{alpha} + \texttt{beta} |)
     convertScaleAbs函数为 abs(src*alpha+beta) 再通过saturate_cast函数转换到0-255
+    缩放，计算绝对值，然后将结果转换为8位。 
 '''
 
 import cv2 as cv
@@ -42,7 +43,7 @@ dst_sharpen = cv.filter2D(src, ddepth=-1, kernel=kernel)
 kernel = np.array([[0, -1], [1, 0]])
 # dst_gradient_edge = cv.filter2D(src, ddepth=-1, kernel=kernel)
 dst_gradient_edge = cv.filter2D(src, ddepth=cv.CV_32F, kernel=kernel)
-dst_gradient_edge = cv.convertScaleAbs(dst_gradient_edge) # 将结果转换为uchar类型（0-255）
+dst_gradient_edge = cv.convertScaleAbs(dst_gradient_edge) # 缩放，计算绝对值，然后将结果转换为8位。 
 
 # 可视化
 rows = 2

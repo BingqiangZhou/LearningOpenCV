@@ -41,6 +41,7 @@ using namespace cv;
  )
  \texttt{dst} (I)= \texttt{saturate\_cast<uchar>} (| \texttt{src} (I)* \texttt{alpha} + \texttt{beta} |)
  convertScaleAbs函数为 abs(src*alpha+beta) 再通过saturate_cast函数转换到0-255
+ 缩放，计算绝对值，然后将结果转换为8位。
  */
 namespace Day030 {
     void mainFunction(){
@@ -67,7 +68,7 @@ namespace Day030 {
         filter2D(src, dst1, -1, kernel1);
         filter2D(src, dst2, -1, kernel2);
         filter2D(src, dst3, CV_32F, kernel3);
-        convertScaleAbs(dst3, dst3);
+        convertScaleAbs(dst3, dst3); // 缩放，计算绝对值，然后将结果转换为8位。 
 
         imshow("blur 5x5", dst1);
         imshow("sharpen 3x3", dst2);

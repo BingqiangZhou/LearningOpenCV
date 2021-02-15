@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-15 15:59:14
+ * @LastEditTime : 2021-02-15 19:32:52
  * @Description  : 
 -->
 
@@ -43,3 +43,4 @@
 | 031 | 图像梯度–Sobel算子 | Sobel算子</br>Scharr算子 | [C++](../../CPP/codes/day031.cpp) / [Python](../../Python/day031.py) |
 | 032 | 图像梯度–更多梯度算子 | Robert算子</br>Prewitt算子 | [C++](../../CPP/codes/day032.cpp) / [Python](../../Python/day032.py) |
 | 033 | 图像梯度–拉普拉斯算子 | 拉普拉斯算子 - 四邻域、八邻域 | [C++](../../CPP/codes/day033.cpp) / [Python](../../Python/day033.py) |
+| 034 | 图像锐化 | 锐化的本质是拉普拉斯滤波与原图权重像素叠加的输出 | [C++](../../CPP/codes/day034.cpp) / [Python](../../Python/day034.py) |

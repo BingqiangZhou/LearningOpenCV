@@ -194,4 +194,9 @@ namespace Day033 {
     void mainFunction();
 }
 
+// Day034-图像锐化
+namespace Day034 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

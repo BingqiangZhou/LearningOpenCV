@@ -174,5 +174,10 @@ namespace Day029 {
     void mainFunction();
 }
 
+// Day030-OpenCV中的自定义滤波器
+namespace Day030 {
+    void mainFunction();
+}
+
 
 #endif /* toc_h */

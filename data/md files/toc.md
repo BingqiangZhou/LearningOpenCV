@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-14 14:41:51
+ * @LastEditTime : 2021-02-14 16:10:49
  * @Description  : 
 -->
 
@@ -39,3 +39,4 @@
 | 027 | 均值迁移模糊 | 均值迁移模糊 - pyrMeanShiftFiltering | [C++](../../CPP/codes/day027.cpp) / [Python](../../Python/day027.py) |
 | 028 | 图像积分图算法 | 图像积分图 - integral | [C++](../../CPP/codes/day028.cpp) / [Python](../../Python/day028.py) |
 | 029 | 快速的图像边缘滤波算法 | 快速的图像边缘滤波 - edgePreservingFilter | [C++](../../CPP/codes/day029.cpp) / [Python](../../Python/day029.py) |
+| 030 | OpenCV自定义的滤波器 | 自定义滤波器 - filter2D | [C++](../../CPP/codes/day030.cpp) / [Python](../../Python/day030.py) |

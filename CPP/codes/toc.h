@@ -261,4 +261,9 @@ namespace Day046 {
     void mainFunction();
 }
 
+// Day047-二值图像连通组件状态统计
+namespace Day047 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-17 21:18:29
+ * @LastEditTime : 2021-02-17 22:17:10
  * @Description  : 
 -->
 
@@ -56,3 +56,4 @@
 | 044 | 自适应阈值算法 | 自适应阈值算法 - adaptiveThreshold</br>ADAPTIVE_THRESH_GAUSSIAN_C</br>ADAPTIVE_THRESH_MEAN_C | [C++](../../CPP/codes/day044.cpp) / [Python](../../Python/day044.py) |
 | 045 | 图像二值化与去噪 | 先去噪声后二值化 | [C++](../../CPP/codes/day045.cpp) / [Python](../../Python/day045.py) |
 | 046 | 二值图像联通组件寻找 | 连通组件标记算法 - connectedComponents | [C++](../../CPP/codes/day046.cpp) / [Python](../../Python/day046.py) |
+| 047 | 二值图像连通组件状态统计 | 带统计信息的连通组件查找 - connectedComponentsWithStats | [C++](../../CPP/codes/day047.cpp) / [Python](../../Python/day047.py) |

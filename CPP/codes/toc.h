@@ -231,4 +231,9 @@ namespace Day040 {
     void mainFunction();
 }
 
+// Day041-OpenCV中的基本阈值操作
+namespace Day041 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

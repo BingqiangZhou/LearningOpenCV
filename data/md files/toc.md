@@ -2,11 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
-<<<<<<< HEAD
- * @LastEditTime : 2021-02-17 15:12:05
-=======
- * @LastEditTime : 2021-02-16 00:00:33
->>>>>>> temp
+ * @LastEditTime : 2021-02-17 15:21:29
  * @Description  : 
 -->
 
@@ -54,3 +50,4 @@
 | 038 | 拉普拉斯金字塔 | 高斯金字塔</br>拉普拉斯金字塔 | [C++](../../CPP/codes/day038.cpp) / [Python](../../Python/day038.py) |
 | 039 | 图像模板匹配 | 图像模板匹配 - matchTemplate | [C++](../../CPP/codes/day039.cpp) / [Python](../../Python/day039.py) |
 | 040 | 二值图像介绍 | 二值图像 - 0表示黑色、1表示白色(255)</br>二值分割  | [C++](../../CPP/codes/day040.cpp) / [Python](../../Python/day040.py) |
+| 041 | OpenCV中的基本阈值操作 | 阈值操作 - threshold | [C++](../../CPP/codes/day041.cpp) / [Python](../../Python/day041.py) |

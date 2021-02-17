@@ -256,4 +256,9 @@ namespace Day045 {
     void mainFunction();
 }
 
+// Day046-二值图像联通组件寻找
+namespace Day046 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

@@ -246,4 +246,9 @@ namespace Day043 {
     void mainFunction();
 }
 
+// Day044-OpenCV中图像二化自适应阈值算法
+namespace Day044 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-10 19:26:53
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-15 20:32:04
+LastEditTime : 2021-02-16 00:12:06
 Description  : template
 '''
 
@@ -28,3 +28,9 @@ for index, image in enumerate(images):
     else:
         plt.imshow(image, cmap="gray")
 plt.show()
+
+for index, image in enumerate(images):
+    cv.imshow(titles[index], image)
+    print(titles[index], image.shape) 
+
+cv.waitKey(0)

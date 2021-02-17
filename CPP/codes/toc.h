@@ -221,4 +221,14 @@ namespace Day038 {
     std::vector<cv::Mat> laplaian_pyramid(cv::Mat src, int level);
 }
 
+// Day039-图像模板匹配
+namespace Day039 {
+    void mainFunction();
+}
+
+// Day040-二值图像介绍
+namespace Day040 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

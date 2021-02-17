@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-15 23:40:24
+ * @LastEditTime : 2021-02-17 14:36:16
  * @Description  : 
 -->
 
@@ -48,3 +48,5 @@
 | 036 | Canny边缘检测器 | Canny边缘检测器 - Canny | [C++](../../CPP/codes/day036.cpp) / [Python](../../Python/day036.py) |
 | 037 | 图像金字塔 | reduce操作 - pyrDown</br>expand操作 - pyrUp | [C++](../../CPP/codes/day037.cpp) / [Python](../../Python/day037.py) |
 | 038 | 拉普拉斯金字塔 | 高斯金字塔</br>拉普拉斯金字塔 | [C++](../../CPP/codes/day038.cpp) / [Python](../../Python/day038.py) |
+| 039 | 图像模板匹配 | 图像模板匹配 - matchTemplate | [C++](../../CPP/codes/day039.cpp) / [Python](../../Python/day039.py) |
+| 040 | 二值图像介绍 | 二值图像 - 0表示黑色、1表示白色(255)</br>二值分割  | [C++](../../CPP/codes/day040.cpp) / [Python](../../Python/day040.py) |

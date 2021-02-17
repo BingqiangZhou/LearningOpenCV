@@ -241,5 +241,9 @@ namespace Day042 {
     void mainFunction();
 }
 
+// Day043-OpenCV中图像二值寻找算法 – TRIANGLE
+namespace Day043 {
+    void mainFunction();
+}
 
 #endif /* toc_h */

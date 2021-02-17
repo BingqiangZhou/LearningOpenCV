@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-02-10 19:26:53
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-02-16 00:12:06
+LastEditTime : 2021-02-17 17:54:14
 Description  : template
 '''
 
@@ -16,6 +16,7 @@ rows = 1
 cols = 2
 images = [src]
 titles = ["original image"]
+plt.figure(figsize=(cols * 4, rows * 3)) # Width, height in inches.
 for index, image in enumerate(images):
     plt.subplot(rows, cols, index + 1)
     if index >= len(titles):

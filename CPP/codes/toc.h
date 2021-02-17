@@ -251,4 +251,9 @@ namespace Day044 {
     void mainFunction();
 }
 
+// Day045-图像二值化与去噪
+namespace Day045 {
+    void mainFunction();
+}
+
 #endif /* toc_h */

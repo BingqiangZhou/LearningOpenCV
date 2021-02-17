@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-17 16:36:38
+ * @LastEditTime : 2021-02-17 17:02:02
  * @Description  : 
 -->
 
@@ -54,3 +54,4 @@
 | 042 | OTSU二值寻找算法 | 阈值操作 - threshold</br>THRESH_OTSU | [C++](../../CPP/codes/day042.cpp) / [Python](../../Python/day042.py) |
 | 043 | TRIANGLE二值寻找算法 | 阈值操作 - threshold</br>THRESH_TRIANGLE | [C++](../../CPP/codes/day043.cpp) / [Python](../../Python/day043.py) |
 | 044 | 自适应阈值算法 | 自适应阈值算法 - adaptiveThreshold</br>ADAPTIVE_THRESH_GAUSSIAN_C</br>ADAPTIVE_THRESH_MEAN_C | [C++](../../CPP/codes/day044.cpp) / [Python](../../Python/day044.py) |
+| 045 | 图像二值化与去噪 | 先去噪声后二值化 | [C++](../../CPP/codes/day045.cpp) / [Python](../../Python/day045.py) |

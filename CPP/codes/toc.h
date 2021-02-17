@@ -236,4 +236,10 @@ namespace Day041 {
     void mainFunction();
 }
 
+// Day042-OpenCV中图像二值寻找算法 – OTSU
+namespace Day042 {
+    void mainFunction();
+}
+
+
 #endif /* toc_h */

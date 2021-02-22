@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-17 22:17:10
+ * @LastEditTime : 2021-02-22 17:30:52
  * @Description  : 
 -->
 
@@ -56,4 +56,12 @@
 | 044 | 自适应阈值算法 | 自适应阈值算法 - adaptiveThreshold</br>ADAPTIVE_THRESH_GAUSSIAN_C</br>ADAPTIVE_THRESH_MEAN_C | [C++](../../CPP/codes/day044.cpp) / [Python](../../Python/day044.py) |
 | 045 | 图像二值化与去噪 | 先去噪声后二值化 | [C++](../../CPP/codes/day045.cpp) / [Python](../../Python/day045.py) |
 | 046 | 二值图像联通组件寻找 | 连通组件标记算法 - connectedComponents | [C++](../../CPP/codes/day046.cpp) / [Python](../../Python/day046.py) |
-| 047 | 二值图像连通组件状态统计 | 带统计信息的连通组件查找 - connectedComponentsWithStats | [C++](../../CPP/codes/day047.cpp) / [Python](../../Python/day047.py) |
+| 047 | 二值图像连通组件状态统计 | 带统计信息的连通组件查找</br>connectedComponentsWithStats | [C++](../../CPP/codes/day047.cpp) / [Python](../../Python/day047.py) |
+| 048 | 二值图像分析-轮廓发现 | 轮廓发现 - findContours</br>绘制轮廓 - drawContours | C++ / [Python](../../Python/day048.py) |
+| 049 | 二值图像分析-轮廓外接矩形 | 最大外接轮廓矩形 - boundingRect</br>最小外接矩形 - minAreaRect | C++ / [Python](../../Python/day049.py) |
+| 050 | 二值图像分析-矩形面积与弧长 | 轮廓面积 - contourArea</br>弧长 - arcLength | C++ / [Python](../../Python/day050.py) |
+| 051 | 二值图像分析-使用轮廓逼近 | 轮廓逼近 - approxPolyDP | C++ / [Python](../../Python/day051.py) |
+| 052 | 二值图像分析-用几何矩计算轮廓中心与横纵比过滤 | 计算几何距 - moments | C++ / [Python](../../Python/day052.py) |
+| 053 | 二值图像分析—Hu矩实现轮廓匹配 | 计算Hu距 - HuMoments</br>轮廓外形匹配 - matchShapes | C++ / [Python](../../Python/day053.py) |
+| 054 | 二值图像分析—对轮廓圆与椭圆拟合 | 拟合椭圆或者圆形 - fitEllipse | C++ / [Python](../../Python/day054.py) |
+| 055 | 二值图像分析-凸包检测 | 对轮廓提取凸包 - convexHull</br>判断轮廓是否为凸包 - isContourConvex | C++ / [Python](../../Python/day055.py) |

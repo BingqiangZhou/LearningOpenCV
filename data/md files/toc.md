@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-22 17:30:52
+ * @LastEditTime : 2021-02-23 01:11:21
  * @Description  : 
 -->
 
@@ -62,6 +62,9 @@
 | 050 | 二值图像分析-矩形面积与弧长 | 轮廓面积 - contourArea</br>弧长 - arcLength | C++ / [Python](../../Python/day050.py) |
 | 051 | 二值图像分析-使用轮廓逼近 | 轮廓逼近 - approxPolyDP | C++ / [Python](../../Python/day051.py) |
 | 052 | 二值图像分析-用几何矩计算轮廓中心与横纵比过滤 | 计算几何距 - moments | C++ / [Python](../../Python/day052.py) |
-| 053 | 二值图像分析—Hu矩实现轮廓匹配 | 计算Hu距 - HuMoments</br>轮廓外形匹配 - matchShapes | C++ / [Python](../../Python/day053.py) |
+| 053 | 二值图像分析-Hu矩实现轮廓匹配 | 计算Hu距 - HuMoments</br>轮廓外形匹配 - matchShapes | C++ / [Python](../../Python/day053.py) |
 | 054 | 二值图像分析—对轮廓圆与椭圆拟合 | 拟合椭圆或者圆形 - fitEllipse | C++ / [Python](../../Python/day054.py) |
 | 055 | 二值图像分析-凸包检测 | 对轮廓提取凸包 - convexHull</br>判断轮廓是否为凸包 - isContourConvex | C++ / [Python](../../Python/day055.py) |
+| 056 | 二值图像分析-直线拟合与极值点寻找 | 直线拟合 - fitLine | C++ / [Python](../../Python/day056.py) |
+| 057 | 二值图像分析-点多边形测试 | 点多边形测试 - pointPolygonTest | C++ / [Python](../../Python/day057.py) |
+| 058 | 二值图像分析-寻找最大内接圆 | 通过点多边形测试巧妙的获取轮廓最大内接圆的半径 | C++ / [Python](../../Python/day058.py) |

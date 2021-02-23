@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-23 01:11:21
+ * @LastEditTime : 2021-02-23 10:33:41
  * @Description  : 
 -->
 
@@ -68,3 +68,6 @@
 | 056 | 二值图像分析-直线拟合与极值点寻找 | 直线拟合 - fitLine | C++ / [Python](../../Python/day056.py) |
 | 057 | 二值图像分析-点多边形测试 | 点多边形测试 - pointPolygonTest | C++ / [Python](../../Python/day057.py) |
 | 058 | 二值图像分析-寻找最大内接圆 | 通过点多边形测试巧妙的获取轮廓最大内接圆的半径 | C++ / [Python](../../Python/day058.py) |
+| 059 | 二值图像分析-霍夫直线检测（一） | 霍夫直线检测 - HoughLines | C++ / [Python](../../Python/day059.py) |
+| 060 | 二值图像分析-霍夫直线检测（二） | 霍夫直线检测 - HoughLinesP | C++ / [Python](../../Python/day060.py) |
+| 061 | 二值图像分析-霍夫圆检测 | 霍夫圆检测 - HoughCircles | C++ / [Python](../../Python/day061.py) |

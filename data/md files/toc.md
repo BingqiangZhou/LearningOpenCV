@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-23 10:33:41
+ * @LastEditTime : 2021-02-23 23:24:46
  * @Description  : 
 -->
 
@@ -71,3 +71,13 @@
 | 059 | 二值图像分析-霍夫直线检测（一） | 霍夫直线检测 - HoughLines | C++ / [Python](../../Python/day059.py) |
 | 060 | 二值图像分析-霍夫直线检测（二） | 霍夫直线检测 - HoughLinesP | C++ / [Python](../../Python/day060.py) |
 | 061 | 二值图像分析-霍夫圆检测 | 霍夫圆检测 - HoughCircles | C++ / [Python](../../Python/day061.py) |
+| 062 | 图像形态学-膨胀与腐蚀（一） | 膨胀 - dilate</br>腐蚀 - erode | C++ / [Python](../../Python/day062.py) |
+| 063 | 图像形态学-膨胀与腐蚀（二） | 获取结构元素 - getStructuringElement | C++ / [Python](../../Python/day063.py) |
+| 064 | 图像形态学-开操作 | 形态学转换 - morphologyEx</br>开操作 - MORPH_OPEN</br>开操作 = 腐蚀 + 膨胀 | C++ / [Python](../../Python/day064.py) |
+| 065 | 图像形态学-闭操作 | 形态学转换 - morphologyEx</br>闭操作 - MORPH_CLOSE</br>开操作 = 膨胀 + 腐蚀 | C++ / [Python](../../Python/day065.py) |
+| 066 | 图像形态学-开闭操作时候结构元素应用演示 | 开操作提取水平线，实现填空题横线位置提取</br>闭操作实现不同层次的轮廓填充 | C++ / [Python](../../Python/day066.py) |
+| 067 | 图像形态学-顶帽操作 | 形态学转换 - morphologyEx</br>顶帽操作 - MORPH_TOPHAT</br>顶帽 = 输入图像 - 开操作 | C++ / [Python](../../Python/day067.py) |
+| 068 | 图像形态学-黑帽操作 | 形态学转换 - morphologyEx</br>黑帽操作 - MORPH_BLACKHAT</br>黑帽操作 = 闭操作 - 输入图像 | C++ / [Python](../../Python/day068.py) |
+| 069 | 图像形态学-图像梯度 | 形态学转换 - morphologyEx</br>基本梯度 - MORPH_GRADIEN</br>基本梯度 = 膨胀操作 - 腐蚀操作</br>内梯度 = 输入图像- 腐蚀操作</br>外梯度 = 膨胀操作 - 输入图像 | C++ / [Python](../../Python/day069.py) |
+| 070 | 形态学应用-用基本梯度实现轮廓分析 | 用基本梯度实现轮廓分析 | C++ / [Python](../../Python/day70.py) |
+| 071 | 形态学应用-击中击不中 | 形态学转换 - morphologyEx</br>击中击不中操作 - MORPH_HITMISS</br>黑帽操作 = 闭操作 - 输入图像 | C++ / [Python](../../Python/day71.py) |

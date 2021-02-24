@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-23 23:24:46
+ * @LastEditTime : 2021-02-25 00:51:23
  * @Description  : 
 -->
 
@@ -80,4 +80,9 @@
 | 068 | 图像形态学-黑帽操作 | 形态学转换 - morphologyEx</br>黑帽操作 - MORPH_BLACKHAT</br>黑帽操作 = 闭操作 - 输入图像 | C++ / [Python](../../Python/day068.py) |
 | 069 | 图像形态学-图像梯度 | 形态学转换 - morphologyEx</br>基本梯度 - MORPH_GRADIEN</br>基本梯度 = 膨胀操作 - 腐蚀操作</br>内梯度 = 输入图像- 腐蚀操作</br>外梯度 = 膨胀操作 - 输入图像 | C++ / [Python](../../Python/day069.py) |
 | 070 | 形态学应用-用基本梯度实现轮廓分析 | 用基本梯度实现轮廓分析 | C++ / [Python](../../Python/day70.py) |
-| 071 | 形态学应用-击中击不中 | 形态学转换 - morphologyEx</br>击中击不中操作 - MORPH_HITMISS</br>黑帽操作 = 闭操作 - 输入图像 | C++ / [Python](../../Python/day71.py) |
+| 071 | 形态学应用-击中击不中 | 形态学转换 - morphologyEx</br>击中击不中操作 - MORPH_HITMISS | C++ / [Python](../../Python/day71.py) |
+| 072 | 二值图像分析案例 | 缺陷检测一 - 提取指定的轮廓 | C++ / [Python](../../Python/day72.py) |
+| 073 | 二值图像分析案例 | 缺陷检测二 - 实现缺陷检测 | C++ / [Python](../../Python/day73.py) |
+| 074 | 二值图像分析案例 | 提取最大轮廓与编码关键点 - 提取星云的区域 | C++ / [Python](../../Python/day74.py) |
+| 075 | 图像去水印/修复 | 图像修复 - inpaint | C++ / [Python](../../Python/day75.py) |
+| 076 | 图像透视变换应用 | 图像透视变换应用 - warpPerspective</br>获取透视变换矩阵 - getPerspectiveTransform</br>获取透视变换矩阵 - findHomography | C++ / [Python](../../Python/day76.py) |

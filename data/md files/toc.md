@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-02-25 00:51:23
+ * @LastEditTime : 2021-03-02 21:55:48
  * @Description  : 
 -->
 
@@ -86,3 +86,7 @@
 | 074 | 二值图像分析案例 | 提取最大轮廓与编码关键点 - 提取星云的区域 | C++ / [Python](../../Python/day74.py) |
 | 075 | 图像去水印/修复 | 图像修复 - inpaint | C++ / [Python](../../Python/day75.py) |
 | 076 | 图像透视变换应用 | 图像透视变换应用 - warpPerspective</br>获取透视变换矩阵 - getPerspectiveTransform</br>获取透视变换矩阵 - findHomography | C++ / [Python](../../Python/day76.py) |
+| 077 | 视频读写与处理 | 视频读写与处理 - VideoCapture | C++ / [Python](../../Python/day77.py) |
+| 078 | 识别与跟踪视频中的特定颜色对象 | 色彩转换BGR2HSV</br>inRange提取颜色区域mask</br>对mask区域进行二值分析得到位置与轮廓信息</br>绘制外接椭圆与中心位置 | C++ / [Python](../../Python/day78.py) |
+| 079 | 视频分析-背景/前景提取（运动分析） | 基于高斯混合模型GMM- createBackgroundSubtractorMOG2</br>基于最近邻KNN - createBackgroundSubtractorKNN | C++ / [Python](../../Python/day79.py) |
+| 080 | 视频分析-背景消除与前景ROI提取 | 初始化背景建模对象GMM</br>读取视频一帧</br>使用背景建模消除生成mask</br>对mask进行轮廓分析提取ROI | C++ / [Python](../../Python/day80.py) |

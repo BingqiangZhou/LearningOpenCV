@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-29 19:42:28
+ * @LastEditTime : 2021-08-30 00:31:26
  * @Description  : 
 -->
 
@@ -99,3 +99,6 @@
 | 087 | 视频分析–基于帧差法实现移动对象分析 | 基于帧差法实现移动对象分析 - 两帧差方法与三帧差方法 | C++ / [Python](../../Python/day087.py) |
 | 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | C++ / [Python](../../Python/day088.py) |
 | 089 | 视频分析–基于连续自适应均值迁移（CAM）的对象移动分析 | 基于连续自适应均值迁移（CAM）的对象移动分析 - CamShift | C++ / [Python](../../Python/day089.py) |
+| 090 | 视频分析–对象移动轨迹绘制 | 初始化路径点数组</br>对每帧的预测轮廓提取中心位置添加到路径数组</br>绘制路径曲线 | C++ / [Python](../../Python/day090.py) |
+| 091 | 对象检测–HAAR级联检测器使用 | HAAR级联检测器使用 - cv::CascadeClassifier::detectMultiScale | C++ / [Python](../../Python/day091.py) |
+| 092 | 对象检测-HAAR特征介绍 | HAAR特征介绍与HAAR级联检测器的特性 | C++ / [Python](../../Python/day092.py) |

@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-29 12:52:28
+ * @LastEditTime : 2021-08-29 19:09:08
  * @Description  : 
 -->
 
@@ -96,3 +96,5 @@
 | 084 | 视频分析-移动对象的KLT光流跟踪算法 | 移动对象的KLT光流跟踪算法 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day084.py) |
 | 085 | 视频分析-移动对象的KLT光流跟踪算法 | 删除静止点与绘制跟踪轨迹 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day085.py) |
 | 086 | 视频分析–稠密光流分析 | 稠密光流分析 - calcOpticalFlowFarneback</br>笛卡尔坐标系转到极坐标系 - cartToPolar | C++ / [Python](../../Python/day086.py) |
+| 087 | 视频分析–基于帧差法实现移动对象分析 | 基于帧差法实现移动对象分析 - 两帧差方法与三帧差方法 | C++ / [Python](../../Python/day087.py) |
+| 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | C++ / [Python](../../Python/day088.py) |

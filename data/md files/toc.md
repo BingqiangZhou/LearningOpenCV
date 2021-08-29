@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-29 19:09:08
+ * @LastEditTime : 2021-08-29 19:42:28
  * @Description  : 
 -->
 
@@ -98,3 +98,4 @@
 | 086 | 视频分析–稠密光流分析 | 稠密光流分析 - calcOpticalFlowFarneback</br>笛卡尔坐标系转到极坐标系 - cartToPolar | C++ / [Python](../../Python/day086.py) |
 | 087 | 视频分析–基于帧差法实现移动对象分析 | 基于帧差法实现移动对象分析 - 两帧差方法与三帧差方法 | C++ / [Python](../../Python/day087.py) |
 | 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | C++ / [Python](../../Python/day088.py) |
+| 089 | 视频分析–基于连续自适应均值迁移（CAM）的对象移动分析 | 基于连续自适应均值迁移（CAM）的对象移动分析 - CamShift | C++ / [Python](../../Python/day089.py) |

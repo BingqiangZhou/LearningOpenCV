@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-24 23:54:39
+ * @LastEditTime : 2021-08-29 12:52:28
  * @Description  : 
 -->
 
@@ -91,3 +91,8 @@
 | 079 | 视频分析-背景/前景提取（运动分析） | 基于高斯混合模型GMM- createBackgroundSubtractorMOG2</br>基于最近邻KNN - createBackgroundSubtractorKNN | C++ / [Python](../../Python/day079.py) |
 | 080 | 视频分析-背景消除与前景ROI提取 | 初始化背景建模对象GMM</br>读取视频一帧</br>使用背景建模消除生成mask</br>对mask进行轮廓分析提取ROI | C++ / [Python](../../Python/day080.py) |
 | 081 | 角点检测–Harris角点检测 | Harris角点检测 - cornerHarris | C++ / [Python](../../Python/day081.py) |
+| 082 | 角点检测–shi-tomas角点检测 | shi-tomas角点检测 - goodFeaturesToTrack | C++ / [Python](../../Python/day082.py) |
+| 083 | 角点检测–亚像素级别角点检测 | 亚像素级别角点检测 - cornerSubPix | C++ / [Python](../../Python/day083.py) |
+| 084 | 视频分析-移动对象的KLT光流跟踪算法 | 移动对象的KLT光流跟踪算法 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day084.py) |
+| 085 | 视频分析-移动对象的KLT光流跟踪算法 | 删除静止点与绘制跟踪轨迹 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day085.py) |
+| 086 | 视频分析–稠密光流分析 | 稠密光流分析 - calcOpticalFlowFarneback</br>笛卡尔坐标系转到极坐标系 - cartToPolar | C++ / [Python](../../Python/day086.py) |

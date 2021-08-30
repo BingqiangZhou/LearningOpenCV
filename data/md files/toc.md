@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-30 00:31:26
+ * @LastEditTime : 2021-08-30 10:37:42
  * @Description  : 
 -->
 
@@ -102,3 +102,4 @@
 | 090 | 视频分析–对象移动轨迹绘制 | 初始化路径点数组</br>对每帧的预测轮廓提取中心位置添加到路径数组</br>绘制路径曲线 | C++ / [Python](../../Python/day090.py) |
 | 091 | 对象检测–HAAR级联检测器使用 | HAAR级联检测器使用 - cv::CascadeClassifier::detectMultiScale | C++ / [Python](../../Python/day091.py) |
 | 092 | 对象检测-HAAR特征介绍 | HAAR特征介绍与HAAR级联检测器的特性 | C++ / [Python](../../Python/day092.py) |
+| 093 | 对象检测-LBP特征介绍 | LBP特征介绍 - lbpcascades | C++ / [Python](../../Python/day093.py) |

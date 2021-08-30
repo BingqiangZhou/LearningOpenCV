@@ -3,6 +3,8 @@
 
 .vscode/
 
+__pycache__/
+
 
 # files
 *.entitlements

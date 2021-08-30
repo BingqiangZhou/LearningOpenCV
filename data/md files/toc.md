@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-30 11:28:33
+ * @LastEditTime : 2021-08-30 14:11:07
  * @Description  : 
 -->
 
@@ -104,3 +104,5 @@
 | 092 | 对象检测-HAAR特征介绍 | HAAR特征介绍与HAAR级联检测器的特性 | C++ / [Python](../../Python/day092.py) |
 | 093 | 对象检测-LBP特征介绍 | LBP特征介绍 - lbpcascades | C++ / [Python](../../Python/day093.py) |
 | 094 | ORB FAST特征关键点检测 | ORB FAST特征关键点检测 - ORB_create、orb.detect</br>画出关键点 - drawKeypoints | C++ / [Python](../../Python/day094.py) |
+| 095| ORB BRIEF特征描述子 匹配 | ORB BRIEF特征描述子 - ORB_create、orb.detectAndCompute</br>画出匹配的结果 - drawMatches</br>暴力匹配 - BFMatcher_create、bf.match | C++ / [Python](../../Python/day095.py) |
+| 096| 描述子匹配 | FLANN匹配 - FlannBasedMatcher、flann.match | C++ / [Python](../../Python/day096.py) |

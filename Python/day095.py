@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-08-30 12:32:49
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-08-30 12:53:22
+LastEditTime : 2021-08-30 16:18:23
 Description  : ORB BRIEF特征描述子 匹配
     得到特征点数据之后，根据BRIEF算法就可以建立描述子。
     选择候选特征点周围SxS大小的像素块、随机选择n对像素点。
@@ -36,10 +36,11 @@ keypoints_box, descriptors_box = orb.detectAndCompute(box, None)
 
 # 使用汉明距离，暴力一对一匹配
 bf = cv.BFMatcher_create(cv.NORM_HAMMING, crossCheck=True)
-matches = bf.match(descriptors_box_in_scene, descriptors_box)
+matches = bf.match(descriptors_box, descriptors_box_in_scene) # 注意这里, 前面是query，后面是train
 
 # 可视化
-result = cv.drawMatches(box_in_scene, keypoints_box_in_scene, box, keypoints_box, matches, None)
+# 注意这里, 需要与生成match的顺序对应，前面是query，后面是train
+result = cv.drawMatches(box, keypoints_box, box_in_scene, keypoints_box_in_scene, matches, None)
 cv.imshow("result", result)
 cv.waitKey(0)
 cv.destroyAllWindows()

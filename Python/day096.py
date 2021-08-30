@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-08-30 13:31:43
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-08-30 14:12:08
+LastEditTime : 2021-08-30 16:18:51
 Description  : 描述子匹配
     图像特征检测首先会获取关键点，然后根据关键点周围像素ROI区域的大小，生成描述子，
     完整的描述子向量就表示了一张图像的特征，是图像特征数据，这种方式也被称为图像特征工程，
@@ -20,8 +20,8 @@ Description  : 描述子匹配
 
 import cv2 as cv
 
-box_in_scene = cv.imread("../data/images/box_in_scene.png")
-box = cv.imread("../data/images/box.png")
+box = cv.imread("../data/images/box.png") # query
+box_in_scene = cv.imread("../data/images/box_in_scene.png") # train
 
 # 初始化ORB
 orb = cv.ORB_create(nfeatures=500, scaleFactor=1.2, nlevels=8, edgeThreshold=31, firstLevel=0, 
@@ -36,7 +36,7 @@ keypoints_box, descriptors_box = orb.detectAndCompute(box, None)
 
 # 使用汉明距离，暴力一对一匹配
 bf = cv.BFMatcher_create(cv.NORM_HAMMING, crossCheck=True)
-bf_matches = bf.match(descriptors_box_in_scene, descriptors_box)
+bf_matches = bf.match(descriptors_box, descriptors_box_in_scene) # 注意这里, 前面是query，后面是train
 bf_good_matches = sorted(bf_matches, key=lambda x: x.distance)[:10] # 取距离最小的10个，即匹配度最高的
 
 # 使用FLANN匹配
@@ -46,13 +46,14 @@ index_params= dict(algorithm = FLANN_INDEX_LSH,
                    key_size = 12,     # 20
                    multi_probe_level = 1) #2
 flann = cv.FlannBasedMatcher(index_params)
-flann_matches = flann.match(descriptors_box_in_scene, descriptors_box, None)
+flann_matches = flann.match(descriptors_box, descriptors_box_in_scene, None)
 flann_good_matches = sorted(flann_matches, key=lambda x: x.distance)[:10] # 取距离最小的10个，即匹配度最高的
 
 # 可视化
-bf_result = cv.drawMatches(box_in_scene, keypoints_box_in_scene, box, keypoints_box, bf_good_matches, None)
+# 注意这里, 需要与生成match的顺序对应，前面是query，后面是train
+bf_result = cv.drawMatches(box, keypoints_box, box_in_scene, keypoints_box_in_scene, bf_good_matches, None)
 cv.imshow("BFMatcher", bf_result)
-flann_result = cv.drawMatches(box_in_scene, keypoints_box_in_scene, box, keypoints_box, flann_good_matches, None)
+flann_result = cv.drawMatches(box, keypoints_box, box_in_scene, keypoints_box_in_scene, flann_good_matches, None)
 cv.imshow("FlannBasedMatcher", flann_result)
 cv.waitKey(0)
 cv.destroyAllWindows()

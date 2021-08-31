@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-30 22:05:27
+ * @LastEditTime : 2021-08-31 12:40:05
  * @Description  : 
 -->
 
@@ -109,3 +109,4 @@
 | 097 | 基于描述子匹配的已知对象定位 | 特征点匹配之后，使用透视变换获得场景图像中对象位置 | C++ / [Python](../../Python/day097.py) |
 | 098 | SIFT特征提取 – 关键点提取 | 关键点提取 - SIFT_create、sift.detect | C++ / [Python](../../Python/day098.py) |
 | 099 | SIFT特征提取 – 描述子生成 | 描述子生成 - SIFT_create、sift.detectAndCompute | C++ / [Python](../../Python/day099.py) |
+| 100 | HOG特征与行人检测 | HOG描述子 - HOGDescriptor</br>设置SVM检测器 - hog.setSVMDetector</br>获取HOG特征行人检测模型-  HOGDescriptor_getDefaultPeopleDetector</br>检测 - hog.detectMultiScale | C++ / [Python](../../Python/day100.py) |

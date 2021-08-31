@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-31 12:40:05
+ * @LastEditTime : 2021-08-31 19:39:21
  * @Description  : 
 -->
 
@@ -109,4 +109,9 @@
 | 097 | 基于描述子匹配的已知对象定位 | 特征点匹配之后，使用透视变换获得场景图像中对象位置 | C++ / [Python](../../Python/day097.py) |
 | 098 | SIFT特征提取 – 关键点提取 | 关键点提取 - SIFT_create、sift.detect | C++ / [Python](../../Python/day098.py) |
 | 099 | SIFT特征提取 – 描述子生成 | 描述子生成 - SIFT_create、sift.detectAndCompute | C++ / [Python](../../Python/day099.py) |
-| 100 | HOG特征与行人检测 | HOG描述子 - HOGDescriptor</br>设置SVM检测器 - hog.setSVMDetector</br>获取HOG特征行人检测模型-  HOGDescriptor_getDefaultPeopleDetector</br>检测 - hog.detectMultiScale | C++ / [Python](../../Python/day100.py) |
+| 100 | HOG特征与行人检测 | HOG描述子 - HOGDescriptor</br>设置SVM检测器 - hog.setSVMDetector</br>获取HOG特征行人检测模型-  HOGDescriptor_getDefaultPeopleDetector</br>多尺度检测 - hog.detectMultiScale | C++ / [Python](../../Python/day100.py) |
+| 101 | HOG特征描述子 – 多尺度检测 | 多尺度检测 - hog.detectMultiScale | C++ / [Python](../../Python/day101.py) |
+| 102 | HOG特征描述子 – 提取描述子 | 提取描述子 - hog.compute | C++ / [Python](../../Python/day102.py) |
+| 103 | HOG特征描述子 – 使用描述子特征生成样本数据 | 使用描述子特征生成样本数据 | C++ / [Python](../../Python/day103.py) |
+| 104 | SVM线性分类器 | SVM线性分类器 - cv.ml.SVM_create、svm.train、svm.save | C++ / [Python](../../Python/day104.py) |
+| 105 | HOG特征描述子 – 使用HOG进行对象检测 | 使用HOG进行对象检测 - cv.ml.SVM_load、svm.predict | C++ / [Python](../../Python/day105.py) |

@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-01 12:45:32
+ * @LastEditTime : 2021-09-01 18:44:24
  * @Description  : 
 -->
 
@@ -115,7 +115,11 @@
 | 103 | HOG特征描述子 – 使用描述子特征生成样本数据 | 使用描述子特征生成样本数据 | C++ / [Python](../../Python/day103.py) |
 | 104 | SVM线性分类器 | SVM线性分类器 - cv.ml.SVM_create、svm.train、svm.save | C++ / [Python](../../Python/day104.py) |
 | 105 | HOG特征描述子 – 使用HOG进行对象检测 | 使用HOG进行对象检测 - cv.ml.SVM_load、svm.predict | C++ / [Python](../../Python/day105.py) |
-| 106 | AKAZE特征与描述子 | AKAZE特征与描述子 - cv.AKAZE_create、zkaze.detectAndCompute | C++ / [Python](../../Python/day106.py) |
-| 107 | Brisk特征提取与描述子匹配 | Brisk特征提取与描述子匹配 - cv.BRISK_create、brisk.detectAndCompute | C++ / [Python](../../Python/day107.py) |
-| 108 | 特征提取之关键点检测 - GFTTDetector | GFTTDetector - cv.GFTTDetector_create、gftt.detect | C++ / [Python](../../Python/day108.py) |
-| 108 | BLOB特征分析 – SimpleBlobDetector | SimpleBlobDetector  - cv.SimpleBlobDetector_Params</br>cv.SimpleBlobDetector_create、blob_detector.detect | C++ / [Python](../../Python/day109.py) |
+| 106 | AKAZE特征与描述子 | AKAZE特征与描述子 - AKAZE_create、zkaze.detectAndCompute | C++ / [Python](../../Python/day106.py) |
+| 107 | Brisk特征提取与描述子匹配 | Brisk特征提取与描述子匹配 - BRISK_create、brisk.detectAndCompute | C++ / [Python](../../Python/day107.py) |
+| 108 | 特征提取之关键点检测 - GFTTDetector | GFTTDetector - GFTTDetector_create、gftt.detect | C++ / [Python](../../Python/day108.py) |
+| 109 | BLOB特征分析 – SimpleBlobDetector | SimpleBlobDetector - SimpleBlobDetector_Params</br>SimpleBlobDetector_create、blob_detector.detect | C++ / [Python](../../Python/day109.py) |
+| 110 | KMeans 数据分类 | 数据分类 - kmeans | C++ / [Python](../../Python/day110.py) |
+| 111 | KMeans 图像分割 | 图像分割 - kmeans | C++ / [Python](../../Python/day111.py) |
+| 112 | KMeans 图像分割 – 背景替换 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定指定分类数目</br>取左上角的label得到背景cluster index</br>生成mask区域，然后高斯模糊进行背景替换 | C++ / [Python](../../Python/day112.py) |
+| 113 | KMeans 图像分割 – 主色彩提取 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定分类数目</br>统计各个聚类占总像素比率，根据比率建立色卡 | C++ / [Python](../../Python/day113.py) |

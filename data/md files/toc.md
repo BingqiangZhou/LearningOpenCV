@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-08-31 19:39:21
+ * @LastEditTime : 2021-09-01 12:45:32
  * @Description  : 
 -->
 
@@ -93,8 +93,8 @@
 | 081 | 角点检测–Harris角点检测 | Harris角点检测 - cornerHarris | C++ / [Python](../../Python/day081.py) |
 | 082 | 角点检测–shi-tomas角点检测 | shi-tomas角点检测 - goodFeaturesToTrack | C++ / [Python](../../Python/day082.py) |
 | 083 | 角点检测–亚像素级别角点检测 | 亚像素级别角点检测 - cornerSubPix | C++ / [Python](../../Python/day083.py) |
-| 084 | 视频分析-移动对象的KLT光流跟踪算法 | 移动对象的KLT光流跟踪算法 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day084.py) |
-| 085 | 视频分析-移动对象的KLT光流跟踪算法 | 删除静止点与绘制跟踪轨迹 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day085.py) |
+| 084 | 视频分析-移动对象的KLT光流跟踪算法01 | 移动对象的KLT光流跟踪算法 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day084.py) |
+| 085 | 视频分析-移动对象的KLT光流跟踪算法02 | 删除静止点与绘制跟踪轨迹 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day085.py) |
 | 086 | 视频分析–稠密光流分析 | 稠密光流分析 - calcOpticalFlowFarneback</br>笛卡尔坐标系转到极坐标系 - cartToPolar | C++ / [Python](../../Python/day086.py) |
 | 087 | 视频分析–基于帧差法实现移动对象分析 | 基于帧差法实现移动对象分析 - 两帧差方法与三帧差方法 | C++ / [Python](../../Python/day087.py) |
 | 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | C++ / [Python](../../Python/day088.py) |
@@ -115,3 +115,7 @@
 | 103 | HOG特征描述子 – 使用描述子特征生成样本数据 | 使用描述子特征生成样本数据 | C++ / [Python](../../Python/day103.py) |
 | 104 | SVM线性分类器 | SVM线性分类器 - cv.ml.SVM_create、svm.train、svm.save | C++ / [Python](../../Python/day104.py) |
 | 105 | HOG特征描述子 – 使用HOG进行对象检测 | 使用HOG进行对象检测 - cv.ml.SVM_load、svm.predict | C++ / [Python](../../Python/day105.py) |
+| 106 | AKAZE特征与描述子 | AKAZE特征与描述子 - cv.AKAZE_create、zkaze.detectAndCompute | C++ / [Python](../../Python/day106.py) |
+| 107 | Brisk特征提取与描述子匹配 | Brisk特征提取与描述子匹配 - cv.BRISK_create、brisk.detectAndCompute | C++ / [Python](../../Python/day107.py) |
+| 108 | 特征提取之关键点检测 - GFTTDetector | GFTTDetector - cv.GFTTDetector_create、gftt.detect | C++ / [Python](../../Python/day108.py) |
+| 108 | BLOB特征分析 – SimpleBlobDetector | SimpleBlobDetector  - cv.SimpleBlobDetector_Params</br>cv.SimpleBlobDetector_create、blob_detector.detect | C++ / [Python](../../Python/day109.py) |

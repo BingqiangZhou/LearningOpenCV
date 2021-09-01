@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-01 18:44:24
+ * @LastEditTime : 2021-09-02 00:35:25
  * @Description  : 
 -->
 
@@ -123,3 +123,5 @@
 | 111 | KMeans 图像分割 | 图像分割 - kmeans | C++ / [Python](../../Python/day111.py) |
 | 112 | KMeans 图像分割 – 背景替换 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定指定分类数目</br>取左上角的label得到背景cluster index</br>生成mask区域，然后高斯模糊进行背景替换 | C++ / [Python](../../Python/day112.py) |
 | 113 | KMeans 图像分割 – 主色彩提取 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定分类数目</br>统计各个聚类占总像素比率，根据比率建立色卡 | C++ / [Python](../../Python/day113.py) |
+| 114 | KNN算法介绍 | KNN算法介绍 - cv.ml.KNearest_create</br>knn.train、knn.save | C++ / [Python](../../Python/day114.py) |
+| 115 | KNN算法使用 | KNN算法使用 - cv.ml.KNearest_load、knn.findNearest | C++ / [Python](../../Python/day115.py) |

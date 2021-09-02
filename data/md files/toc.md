@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-02 00:35:25
+ * @LastEditTime : 2021-09-03 00:17:28
  * @Description  : 
 -->
 
@@ -125,3 +125,11 @@
 | 113 | KMeans 图像分割 – 主色彩提取 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定分类数目</br>统计各个聚类占总像素比率，根据比率建立色卡 | C++ / [Python](../../Python/day113.py) |
 | 114 | KNN算法介绍 | KNN算法介绍 - cv.ml.KNearest_create</br>knn.train、knn.save | C++ / [Python](../../Python/day114.py) |
 | 115 | KNN算法使用 | KNN算法使用 - cv.ml.KNearest_load、knn.findNearest | C++ / [Python](../../Python/day115.py) |
+| 116 | 决策树算法介绍与使用 | 随机森林(Random Trees) - cv.ml.RTrees_create、rt.predict</br>强化分类(Boosting Classification) - cv.ml.Boost_create、rt.predict、boost.train、boost.predict | C++ / [Python](../../Python/day116.py) |
+| 117 | 图像均值漂移分割 | 图像均值漂移分割 - pyrMeanShiftFiltering | C++ / [Python](../../Python/day117.py) |
+| 118 | Grabcut图像分割 | Grabcut图像分割 - grabCut | C++ / [Python](../../Python/day118.py) |
+| 119 | Grabcut图像分割 – 背景替换 | ROI区域选择、Grabcut对象分割、Mask生成</br>使用mask，实现背景与前景的高斯权重融合 | C++ / [Python](../../Python/day119.py) |
+| 120 | 二维码检测与识别 | 二维码检测与识别 - cv.QRCodeDetector</br>qrcode_detector.detectAndDecode</br>qrcode_detector.detect、qrcode_detector.decode | C++ / [Python](../../Python/day120.py) |
+| 121 | OpenCV DNN 获取导入模型各层信息 | cv.dnn.readNet、net.getLayerNames</br>net.getLayerId、net.getLayer | C++ / [Python](../../Python/day121.py) |
+| 122 | OpenCV DNN 实现图像分类 | cv.dnn.readNetFromCaffe、cv.dnn.blobFromImage</br>net.setInput、net.forward、net.getPerfProfile | C++ / [Python](../../Python/day122.py) |
+| 123 | OpenCV DNN 为模型运行设置目标设备与计算后台 | net.setPreferableBackend</br>net.setPreferableTarget | C++ / [Python](../../Python/day123.py) |

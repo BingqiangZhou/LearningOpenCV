@@ -2,12 +2,12 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 11:29:08
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-01-25 02:13:35
+ * @LastEditTime : 2021-09-04 02:20:07
  * @Description  : 
 -->
 # LearningOpenCV
 
-OpenCV学习笔记：C++，Python双管齐下。
+OpenCV学习笔记：C++，Python一起。
 
 - [OpenCV环境配置](./data/md%20files/env-config.md)
 - [学习笔记目录](./data/md%20files/toc.md)

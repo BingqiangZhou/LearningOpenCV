@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-04 00:16:47
+ * @LastEditTime : 2021-09-04 02:16:21
  * @Description  : 
 -->
 
@@ -144,3 +144,7 @@
 | 132 | OpenCV DNN单张与多张图像的推断 | DNN单张与多张图像的推断 - cv.dnn.blobFromImage、cv.dnn.blobFromImages | C++ / [Python](../../Python/day132.py) |
 | 133 | OpenCV DNN 图像颜色化模型使用 | 图像颜色化模型使用 | C++ / [Python](../../Python/day133.py) |
 | 134 | OpenCV DNN ENet实现图像分割 | ENet实现图像分割 - cv.dnn.readNetFromTorch | C++ / [Python](../../Python/day134.py) |
+| 135 | OpenCV DNN 实时快速的图像风格迁移 | 实时快速的图像风格迁移 | C++ / [Python](../../Python/day135.py) |
+| 136 | OpenCV DNN 解析网络输出结果 | 解析网络输出结果 - 小结（无代码） | C++ / [Python](../../Python/day136.py) |
+| 137 | OpenCV DNN 实现性别与年龄预测 | 实现性别与年龄预测 | C++ / [Python](../../Python/day137.py) |
+| 138 | OpenCV DNN 使用OpenVINO加速 | 使用OpenVINO加速 - 介绍（无代码） | C++ / [Python](../../Python/day138.py) |

@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-03 00:17:28
+ * @LastEditTime : 2021-09-03 11:49:49
  * @Description  : 
 -->
 
@@ -133,3 +133,5 @@
 | 121 | OpenCV DNN 获取导入模型各层信息 | cv.dnn.readNet、net.getLayerNames</br>net.getLayerId、net.getLayer | C++ / [Python](../../Python/day121.py) |
 | 122 | OpenCV DNN 实现图像分类 | cv.dnn.readNetFromCaffe、cv.dnn.blobFromImage</br>net.setInput、net.forward、net.getPerfProfile | C++ / [Python](../../Python/day122.py) |
 | 123 | OpenCV DNN 为模型运行设置目标设备与计算后台 | net.setPreferableBackend</br>net.setPreferableTarget | C++ / [Python](../../Python/day123.py) |
+| 124 | OpenCV DNN 基于SSD实现对象检测 | 基于SSD实现对象检测 | C++ / [Python](../../Python/day124.py) |
+| 125 | OpenCV DNN 基于SSD实现实时视频检测 | 基于SSD实现实时视频检测 | C++ / [Python](../../Python/day125.py) |

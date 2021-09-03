@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-09-03 17:49:29
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-09-03 18:15:37
+LastEditTime : 2021-09-03 21:20:12
 Description  : OpenCV DNN 支持YOLOv3-tiny版本实时对象检测
     YOLOv3的模型在CPU上无法做到实时运行，而YOLO作者提供了个YOLOv3版本的精简版对象检测模型，
     大小只有30MB左右，但是模型可以在CPU上做到实时运行，这个模型就是YOLOv3-tiny模型，其下载地址如下：
@@ -39,7 +39,7 @@ while True:
         break
 
     h, w = frame.shape[:2]
-    blob = cv.dnn.blobFromImage(frame, 1.0/255.0, (320, 320), (), swapRB=False, crop=False)
+    blob = cv.dnn.blobFromImage(frame, 1.0/255.0, (320, 320), (), swapRB=True, crop=False)
 
     # 预测
     net.setInput(blob)

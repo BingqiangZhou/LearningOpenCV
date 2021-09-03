@@ -17,3 +17,4 @@ data/models/openpose_pose/
 settings.json
 
 data/models/yolov3/yolov3.weights
+data/models/colorization/colorization_release_v2.caffemodel

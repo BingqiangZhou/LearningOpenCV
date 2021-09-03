@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-03 17:38:41
+ * @LastEditTime : 2021-09-04 00:16:47
  * @Description  : 
 -->
 
@@ -100,7 +100,7 @@
 | 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | C++ / [Python](../../Python/day088.py) |
 | 089 | 视频分析–基于连续自适应均值迁移（CAM）的对象移动分析 | 基于连续自适应均值迁移（CAM）的对象移动分析 - CamShift | C++ / [Python](../../Python/day089.py) |
 | 090 | 视频分析–对象移动轨迹绘制 | 初始化路径点数组</br>对每帧的预测轮廓提取中心位置添加到路径数组</br>绘制路径曲线 | C++ / [Python](../../Python/day090.py) |
-| 091 | 对象检测–HAAR级联检测器使用 | HAAR级联检测器使用 - cv::CascadeClassifier::detectMultiScale | C++ / [Python](../../Python/day091.py) |
+| 091 | 对象检测–HAAR级联检测器使用 | HAAR级联检测器使用 - cv.CascadeClassifier.detectMultiScale | C++ / [Python](../../Python/day091.py) |
 | 092 | 对象检测-HAAR特征介绍 | HAAR特征介绍与HAAR级联检测器的特性 | C++ / [Python](../../Python/day092.py) |
 | 093 | 对象检测-LBP特征介绍 | LBP特征介绍 - lbpcascades | C++ / [Python](../../Python/day093.py) |
 | 094 | ORB FAST特征关键点检测 | ORB FAST特征关键点检测 - ORB_create、orb.detect</br>画出关键点 - drawKeypoints | C++ / [Python](../../Python/day094.py) |
@@ -139,4 +139,8 @@
 | 127 | OpenCV DNN 基于残差网络的视频人脸检测 | 基于残差网络的视频人脸检测 | C++ / [Python](../../Python/day127.py) |
 | 128 | OpenCV DNN 直接调用tensorflow的导出模型 | 直接调用tensorflow的导出模型 | C++ / [Python](../../Python/day128.py) |
 | 129 | OpenCV DNN 调用openpose模型实现姿态评估 | 调用openpose模型实现姿态评估 | C++ / [Python](../../Python/day129.py) |
-| 130 | OpenCV DNN 支持YOLO对象检测网络运行 | 支持YOLO对象检测网络运行 - cv.dnn.readNetFromDarknet</br>net.getUnconnectedOutLayersNames、cv.dnn.NMSBoxes | C++ / [Python](../../Python/day129.py) |
+| 130 | OpenCV DNN 支持YOLO对象检测网络运行 | 支持YOLO对象检测网络运行 - cv.dnn.readNetFromDarknet</br>net.getUnconnectedOutLayersNames、cv.dnn.NMSBoxes | C++ / [Python](../../Python/day130.py) |
+| 131 | OpenCV DNN 支持YOLOv3-tiny版本实时对象检测 | 支持YOLOv3-tiny版本实时对象检测 | C++ / [Python](../../Python/day131.py) |
+| 132 | OpenCV DNN单张与多张图像的推断 | DNN单张与多张图像的推断 - cv.dnn.blobFromImage、cv.dnn.blobFromImages | C++ / [Python](../../Python/day132.py) |
+| 133 | OpenCV DNN 图像颜色化模型使用 | 图像颜色化模型使用 | C++ / [Python](../../Python/day133.py) |
+| 134 | OpenCV DNN ENet实现图像分割 | ENet实现图像分割 - cv.dnn.readNetFromTorch | C++ / [Python](../../Python/day134.py) |

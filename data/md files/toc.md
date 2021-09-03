@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-03 11:49:49
+ * @LastEditTime : 2021-09-03 15:32:46
  * @Description  : 
 -->
 
@@ -135,3 +135,6 @@
 | 123 | OpenCV DNN 为模型运行设置目标设备与计算后台 | net.setPreferableBackend</br>net.setPreferableTarget | C++ / [Python](../../Python/day123.py) |
 | 124 | OpenCV DNN 基于SSD实现对象检测 | 基于SSD实现对象检测 | C++ / [Python](../../Python/day124.py) |
 | 125 | OpenCV DNN 基于SSD实现实时视频检测 | 基于SSD实现实时视频检测 | C++ / [Python](../../Python/day125.py) |
+| 126 | OpenCV DNN 基于残差网络的人脸检测 | 基于残差网络的人脸检测 | C++ / [Python](../../Python/day126.py) |
+| 127 | OpenCV DNN 基于残差网络的视频人脸检测 | 基于残差网络的视频人脸检测 | C++ / [Python](../../Python/day127.py) |
+| 128 | OpenCV DNN 直接调用tensorflow的导出模型 | 直接调用tensorflow的导出模型 | C++ / [Python](../../Python/day128.py) |

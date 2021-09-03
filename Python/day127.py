@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-09-03 12:55:42
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-09-03 13:00:04
+LastEditTime : 2021-09-03 13:31:24
 Description  : OpenCV DNN 基于残差网络的视频人脸检测
     OpenCV在DNN模块中提供了基于残差SSD网络训练的人脸检测模型，还支持单精度的fp16的检测准确度更好的Caffe模型加载与使用，
     这里实现了一个基于Caffe Model的视频实时人脸监测模型，基于Python与C++代码CPU运行，帧率均可以到达15以上。非常好用。
@@ -39,8 +39,8 @@ while True:
 
     # 预测
     net.setInput(blob)
-    out = net.forward() # (1, 1, 100, 7)
-    # 最多检测一百个对象，7维第一维为属于那张输入图像（一张输入图像则全为0），第二维为对象的id，第三维为分数，
+    out = net.forward() # (1, 1, 200, 7)
+    # 最多检测200个对象，7维第一维为属于那张输入图像（一张输入图像则全为0），第二维为对象的id，第三维为分数，
     # 第四维到七维为bbox的坐标比率（需要乘以原高宽大小）, [left, top, right, bottom]。
     index = np.nonzero(out[0, 0, :, 1]) # 获取检查为对象的index
 

@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-01-24 18:15:02
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-04 02:16:21
+ * @LastEditTime : 2021-09-06 13:47:12
  * @Description  : 
 -->
 
@@ -57,94 +57,94 @@
 | 045 | 图像二值化与去噪 | 先去噪声后二值化 | [C++](../../CPP/codes/day045.cpp) / [Python](../../Python/day045.py) |
 | 046 | 二值图像联通组件寻找 | 连通组件标记算法 - connectedComponents | [C++](../../CPP/codes/day046.cpp) / [Python](../../Python/day046.py) |
 | 047 | 二值图像连通组件状态统计 | 带统计信息的连通组件查找</br>connectedComponentsWithStats | [C++](../../CPP/codes/day047.cpp) / [Python](../../Python/day047.py) |
-| 048 | 二值图像分析-轮廓发现 | 轮廓发现 - findContours</br>绘制轮廓 - drawContours | C++ / [Python](../../Python/day048.py) |
-| 049 | 二值图像分析-轮廓外接矩形 | 最大外接轮廓矩形 - boundingRect</br>最小外接矩形 - minAreaRect | C++ / [Python](../../Python/day049.py) |
-| 050 | 二值图像分析-矩形面积与弧长 | 轮廓面积 - contourArea</br>弧长 - arcLength | C++ / [Python](../../Python/day050.py) |
-| 051 | 二值图像分析-使用轮廓逼近 | 轮廓逼近 - approxPolyDP | C++ / [Python](../../Python/day051.py) |
-| 052 | 二值图像分析-用几何矩计算轮廓中心与横纵比过滤 | 计算几何距 - moments | C++ / [Python](../../Python/day052.py) |
-| 053 | 二值图像分析-Hu矩实现轮廓匹配 | 计算Hu距 - HuMoments</br>轮廓外形匹配 - matchShapes | C++ / [Python](../../Python/day053.py) |
-| 054 | 二值图像分析—对轮廓圆与椭圆拟合 | 拟合椭圆或者圆形 - fitEllipse | C++ / [Python](../../Python/day054.py) |
-| 055 | 二值图像分析-凸包检测 | 对轮廓提取凸包 - convexHull</br>判断轮廓是否为凸包 - isContourConvex | C++ / [Python](../../Python/day055.py) |
-| 056 | 二值图像分析-直线拟合与极值点寻找 | 直线拟合 - fitLine | C++ / [Python](../../Python/day056.py) |
-| 057 | 二值图像分析-点多边形测试 | 点多边形测试 - pointPolygonTest | C++ / [Python](../../Python/day057.py) |
-| 058 | 二值图像分析-寻找最大内接圆 | 通过点多边形测试巧妙的获取轮廓最大内接圆的半径 | C++ / [Python](../../Python/day058.py) |
-| 059 | 二值图像分析-霍夫直线检测（一） | 霍夫直线检测 - HoughLines | C++ / [Python](../../Python/day059.py) |
-| 060 | 二值图像分析-霍夫直线检测（二） | 霍夫直线检测 - HoughLinesP | C++ / [Python](../../Python/day060.py) |
-| 061 | 二值图像分析-霍夫圆检测 | 霍夫圆检测 - HoughCircles | C++ / [Python](../../Python/day061.py) |
-| 062 | 图像形态学-膨胀与腐蚀（一） | 膨胀 - dilate</br>腐蚀 - erode | C++ / [Python](../../Python/day062.py) |
-| 063 | 图像形态学-膨胀与腐蚀（二） | 获取结构元素 - getStructuringElement | C++ / [Python](../../Python/day063.py) |
-| 064 | 图像形态学-开操作 | 形态学转换 - morphologyEx</br>开操作 - MORPH_OPEN</br>开操作 = 腐蚀 + 膨胀 | C++ / [Python](../../Python/day064.py) |
-| 065 | 图像形态学-闭操作 | 形态学转换 - morphologyEx</br>闭操作 - MORPH_CLOSE</br>开操作 = 膨胀 + 腐蚀 | C++ / [Python](../../Python/day065.py) |
-| 066 | 图像形态学-开闭操作时候结构元素应用演示 | 开操作提取水平线，实现填空题横线位置提取</br>闭操作实现不同层次的轮廓填充 | C++ / [Python](../../Python/day066.py) |
-| 067 | 图像形态学-顶帽操作 | 形态学转换 - morphologyEx</br>顶帽操作 - MORPH_TOPHAT</br>顶帽 = 输入图像 - 开操作 | C++ / [Python](../../Python/day067.py) |
-| 068 | 图像形态学-黑帽操作 | 形态学转换 - morphologyEx</br>黑帽操作 - MORPH_BLACKHAT</br>黑帽操作 = 闭操作 - 输入图像 | C++ / [Python](../../Python/day068.py) |
-| 069 | 图像形态学-图像梯度 | 形态学转换 - morphologyEx</br>基本梯度 - MORPH_GRADIEN</br>基本梯度 = 膨胀操作 - 腐蚀操作</br>内梯度 = 输入图像- 腐蚀操作</br>外梯度 = 膨胀操作 - 输入图像 | C++ / [Python](../../Python/day069.py) |
-| 070 | 形态学应用-用基本梯度实现轮廓分析 | 用基本梯度实现轮廓分析 | C++ / [Python](../../Python/day070.py) |
-| 071 | 形态学应用-击中击不中 | 形态学转换 - morphologyEx</br>击中击不中操作 - MORPH_HITMISS | C++ / [Python](../../Python/day071.py) |
-| 072 | 二值图像分析案例 | 缺陷检测一 - 提取指定的轮廓 | C++ / [Python](../../Python/day072.py) |
-| 073 | 二值图像分析案例 | 缺陷检测二 - 实现缺陷检测 | C++ / [Python](../../Python/day073.py) |
-| 074 | 二值图像分析案例 | 提取最大轮廓与编码关键点 - 提取星云的区域 | C++ / [Python](../../Python/day074.py) |
-| 075 | 图像去水印/修复 | 图像修复 - inpaint | C++ / [Python](../../Python/day075.py) |
-| 076 | 图像透视变换应用 | 图像透视变换应用 - warpPerspective</br>获取透视变换矩阵 - getPerspectiveTransform</br>获取透视变换矩阵 - findHomography | C++ / [Python](../../Python/day076.py) |
-| 077 | 视频读写与处理 | 视频读写与处理 - VideoCapture | C++ / [Python](../../Python/day077.py) |
-| 078 | 识别与跟踪视频中的特定颜色对象 | 色彩转换BGR2HSV</br>inRange提取颜色区域mask</br>对mask区域进行二值分析得到位置与轮廓信息</br>绘制外接椭圆与中心位置 | C++ / [Python](../../Python/day078.py) |
-| 079 | 视频分析-背景/前景提取（运动分析） | 基于高斯混合模型GMM- createBackgroundSubtractorMOG2</br>基于最近邻KNN - createBackgroundSubtractorKNN | C++ / [Python](../../Python/day079.py) |
-| 080 | 视频分析-背景消除与前景ROI提取 | 初始化背景建模对象GMM</br>读取视频一帧</br>使用背景建模消除生成mask</br>对mask进行轮廓分析提取ROI | C++ / [Python](../../Python/day080.py) |
-| 081 | 角点检测–Harris角点检测 | Harris角点检测 - cornerHarris | C++ / [Python](../../Python/day081.py) |
-| 082 | 角点检测–shi-tomas角点检测 | shi-tomas角点检测 - goodFeaturesToTrack | C++ / [Python](../../Python/day082.py) |
-| 083 | 角点检测–亚像素级别角点检测 | 亚像素级别角点检测 - cornerSubPix | C++ / [Python](../../Python/day083.py) |
-| 084 | 视频分析-移动对象的KLT光流跟踪算法01 | 移动对象的KLT光流跟踪算法 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day084.py) |
-| 085 | 视频分析-移动对象的KLT光流跟踪算法02 | 删除静止点与绘制跟踪轨迹 - calcOpticalFlowPyrLK | C++ / [Python](../../Python/day085.py) |
-| 086 | 视频分析–稠密光流分析 | 稠密光流分析 - calcOpticalFlowFarneback</br>笛卡尔坐标系转到极坐标系 - cartToPolar | C++ / [Python](../../Python/day086.py) |
-| 087 | 视频分析–基于帧差法实现移动对象分析 | 基于帧差法实现移动对象分析 - 两帧差方法与三帧差方法 | C++ / [Python](../../Python/day087.py) |
-| 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | C++ / [Python](../../Python/day088.py) |
-| 089 | 视频分析–基于连续自适应均值迁移（CAM）的对象移动分析 | 基于连续自适应均值迁移（CAM）的对象移动分析 - CamShift | C++ / [Python](../../Python/day089.py) |
-| 090 | 视频分析–对象移动轨迹绘制 | 初始化路径点数组</br>对每帧的预测轮廓提取中心位置添加到路径数组</br>绘制路径曲线 | C++ / [Python](../../Python/day090.py) |
-| 091 | 对象检测–HAAR级联检测器使用 | HAAR级联检测器使用 - cv.CascadeClassifier.detectMultiScale | C++ / [Python](../../Python/day091.py) |
-| 092 | 对象检测-HAAR特征介绍 | HAAR特征介绍与HAAR级联检测器的特性 | C++ / [Python](../../Python/day092.py) |
-| 093 | 对象检测-LBP特征介绍 | LBP特征介绍 - lbpcascades | C++ / [Python](../../Python/day093.py) |
-| 094 | ORB FAST特征关键点检测 | ORB FAST特征关键点检测 - ORB_create、orb.detect</br>画出关键点 - drawKeypoints | C++ / [Python](../../Python/day094.py) |
-| 095 | ORB BRIEF特征描述子 匹配 | ORB BRIEF特征描述子 - ORB_create、orb.detectAndCompute</br>画出匹配的结果 - drawMatches</br>暴力匹配 - BFMatcher_create、bf.match | C++ / [Python](../../Python/day095.py) |
-| 096 | 描述子匹配 | FLANN匹配 - FlannBasedMatcher、flann.match | C++ / [Python](../../Python/day096.py) |
-| 097 | 基于描述子匹配的已知对象定位 | 特征点匹配之后，使用透视变换获得场景图像中对象位置 | C++ / [Python](../../Python/day097.py) |
-| 098 | SIFT特征提取 – 关键点提取 | 关键点提取 - SIFT_create、sift.detect | C++ / [Python](../../Python/day098.py) |
-| 099 | SIFT特征提取 – 描述子生成 | 描述子生成 - SIFT_create、sift.detectAndCompute | C++ / [Python](../../Python/day099.py) |
-| 100 | HOG特征与行人检测 | HOG描述子 - HOGDescriptor</br>设置SVM检测器 - hog.setSVMDetector</br>获取HOG特征行人检测模型-  HOGDescriptor_getDefaultPeopleDetector</br>多尺度检测 - hog.detectMultiScale | C++ / [Python](../../Python/day100.py) |
-| 101 | HOG特征描述子 – 多尺度检测 | 多尺度检测 - hog.detectMultiScale | C++ / [Python](../../Python/day101.py) |
-| 102 | HOG特征描述子 – 提取描述子 | 提取描述子 - hog.compute | C++ / [Python](../../Python/day102.py) |
-| 103 | HOG特征描述子 – 使用描述子特征生成样本数据 | 使用描述子特征生成样本数据 | C++ / [Python](../../Python/day103.py) |
-| 104 | SVM线性分类器 | SVM线性分类器 - cv.ml.SVM_create、svm.train、svm.save | C++ / [Python](../../Python/day104.py) |
-| 105 | HOG特征描述子 – 使用HOG进行对象检测 | 使用HOG进行对象检测 - cv.ml.SVM_load、svm.predict | C++ / [Python](../../Python/day105.py) |
-| 106 | AKAZE特征与描述子 | AKAZE特征与描述子 - AKAZE_create、zkaze.detectAndCompute | C++ / [Python](../../Python/day106.py) |
-| 107 | Brisk特征提取与描述子匹配 | Brisk特征提取与描述子匹配 - BRISK_create、brisk.detectAndCompute | C++ / [Python](../../Python/day107.py) |
-| 108 | 特征提取之关键点检测 - GFTTDetector | GFTTDetector - GFTTDetector_create、gftt.detect | C++ / [Python](../../Python/day108.py) |
-| 109 | BLOB特征分析 – SimpleBlobDetector | SimpleBlobDetector - SimpleBlobDetector_Params</br>SimpleBlobDetector_create、blob_detector.detect | C++ / [Python](../../Python/day109.py) |
-| 110 | KMeans 数据分类 | 数据分类 - kmeans | C++ / [Python](../../Python/day110.py) |
-| 111 | KMeans 图像分割 | 图像分割 - kmeans | C++ / [Python](../../Python/day111.py) |
-| 112 | KMeans 图像分割 – 背景替换 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定指定分类数目</br>取左上角的label得到背景cluster index</br>生成mask区域，然后高斯模糊进行背景替换 | C++ / [Python](../../Python/day112.py) |
-| 113 | KMeans 图像分割 – 主色彩提取 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定分类数目</br>统计各个聚类占总像素比率，根据比率建立色卡 | C++ / [Python](../../Python/day113.py) |
-| 114 | KNN算法介绍 | KNN算法介绍 - cv.ml.KNearest_create</br>knn.train、knn.save | C++ / [Python](../../Python/day114.py) |
-| 115 | KNN算法使用 | KNN算法使用 - cv.ml.KNearest_load、knn.findNearest | C++ / [Python](../../Python/day115.py) |
+| 048 | 二值图像分析-轮廓发现 | 轮廓发现 - findContours</br>绘制轮廓 - drawContours | [C++](../../CPP/codes/day048.cpp) / [Python](../../Python/day048.py) |
+| 049 | 二值图像分析-轮廓外接矩形 | 最大外接轮廓矩形 - boundingRect</br>最小外接矩形 - minAreaRect | [C++](../../CPP/codes/day049.cpp) / [Python](../../Python/day049.py) |
+| 050 | 二值图像分析-矩形面积与弧长 | 轮廓面积 - contourArea</br>弧长 - arcLength | [C++](../../CPP/codes/day050.cpp) / [Python](../../Python/day050.py) |
+| 051 | 二值图像分析-使用轮廓逼近 | 轮廓逼近 - approxPolyDP | [C++](../../CPP/codes/day051.cpp) / [Python](../../Python/day051.py) |
+| 052 | 二值图像分析-用几何矩计算轮廓中心与横纵比过滤 | 计算几何距 - moments | [C++](../../CPP/codes/day052.cpp) / [Python](../../Python/day052.py) |
+| 053 | 二值图像分析-Hu矩实现轮廓匹配 | 计算Hu距 - HuMoments</br>轮廓外形匹配 - matchShapes | [C++](../../CPP/codes/day053.cpp) / [Python](../../Python/day053.py) |
+| 054 | 二值图像分析—对轮廓圆与椭圆拟合 | 拟合椭圆或者圆形 - fitEllipse | [C++](../../CPP/codes/day054.cpp) / [Python](../../Python/day054.py) |
+| 055 | 二值图像分析-凸包检测 | 对轮廓提取凸包 - convexHull</br>判断轮廓是否为凸包 - isContourConvex | [C++](../../CPP/codes/day055.cpp) / [Python](../../Python/day055.py) |
+| 056 | 二值图像分析-直线拟合与极值点寻找 | 直线拟合 - fitLine | [C++](../../CPP/codes/day056.cpp) / [Python](../../Python/day056.py) |
+| 057 | 二值图像分析-点多边形测试 | 点多边形测试 - pointPolygonTest | [C++](../../CPP/codes/day057.cpp) / [Python](../../Python/day057.py) |
+| 058 | 二值图像分析-寻找最大内接圆 | 通过点多边形测试巧妙的获取轮廓最大内接圆的半径 | [C++](../../CPP/codes/day058.cpp) / [Python](../../Python/day058.py) |
+| 059 | 二值图像分析-霍夫直线检测（一） | 霍夫直线检测 - HoughLines | [C++](../../CPP/codes/day059.cpp) / [Python](../../Python/day059.py) |
+| 060 | 二值图像分析-霍夫直线检测（二） | 霍夫直线检测 - HoughLinesP | [C++](../../CPP/codes/day060.cpp) / [Python](../../Python/day060.py) |
+| 061 | 二值图像分析-霍夫圆检测 | 霍夫圆检测 - HoughCircles | [C++](../../CPP/codes/day061.cpp) / [Python](../../Python/day061.py) |
+| 062 | 图像形态学-膨胀与腐蚀（一） | 膨胀 - dilate</br>腐蚀 - erode | [C++](../../CPP/codes/day062.cpp) / [Python](../../Python/day062.py) |
+| 063 | 图像形态学-膨胀与腐蚀（二） | 获取结构元素 - getStructuringElement | [C++](../../CPP/codes/day063.cpp) / [Python](../../Python/day063.py) |
+| 064 | 图像形态学-开操作 | 形态学转换 - morphologyEx</br>开操作 - MORPH_OPEN</br>开操作 = 腐蚀 + 膨胀 | [C++](../../CPP/codes/day064.cpp) / [Python](../../Python/day064.py) |
+| 065 | 图像形态学-闭操作 | 形态学转换 - morphologyEx</br>闭操作 - MORPH_CLOSE</br>开操作 = 膨胀 + 腐蚀 | [C++](../../CPP/codes/day065.cpp) / [Python](../../Python/day065.py) |
+| 066 | 图像形态学-开闭操作时候结构元素应用演示 | 开操作提取水平线，实现填空题横线位置提取</br>闭操作实现不同层次的轮廓填充 | [C++](../../CPP/codes/day066.cpp) / [Python](../../Python/day066.py) |
+| 067 | 图像形态学-顶帽操作 | 形态学转换 - morphologyEx</br>顶帽操作 - MORPH_TOPHAT</br>顶帽 = 输入图像 - 开操作 | [C++](../../CPP/codes/day067.cpp) / [Python](../../Python/day067.py) |
+| 068 | 图像形态学-黑帽操作 | 形态学转换 - morphologyEx</br>黑帽操作 - MORPH_BLACKHAT</br>黑帽操作 = 闭操作 - 输入图像 | [C++](../../CPP/codes/day068.cpp) / [Python](../../Python/day068.py) |
+| 069 | 图像形态学-图像梯度 | 形态学转换 - morphologyEx</br>基本梯度 - MORPH_GRADIEN</br>基本梯度 = 膨胀操作 - 腐蚀操作</br>内梯度 = 输入图像- 腐蚀操作</br>外梯度 = 膨胀操作 - 输入图像 | [C++](../../CPP/codes/day069.cpp) / [Python](../../Python/day069.py) |
+| 070 | 形态学应用-用基本梯度实现轮廓分析 | 用基本梯度实现轮廓分析 | [C++](../../CPP/codes/day070.cpp) / [Python](../../Python/day070.py) |
+| 071 | 形态学应用-击中击不中 | 形态学转换 - morphologyEx</br>击中击不中操作 - MORPH_HITMISS | [C++](../../CPP/codes/day071.cpp) / [Python](../../Python/day071.py) |
+| 072 | 二值图像分析案例 | 缺陷检测一 - 提取指定的轮廓 | [C++](../../CPP/codes/day072.cpp) / [Python](../../Python/day072.py) |
+| 073 | 二值图像分析案例 | 缺陷检测二 - 实现缺陷检测 | [C++](../../CPP/codes/day073.cpp) / [Python](../../Python/day073.py) |
+| 074 | 二值图像分析案例 | 提取最大轮廓与编码关键点 - 提取星云的区域 | [C++](../../CPP/codes/day074.cpp) / [Python](../../Python/day074.py) |
+| 075 | 图像去水印/修复 | 图像修复 - inpaint | [C++](../../CPP/codes/day075.cpp) / [Python](../../Python/day075.py) |
+| 076 | 图像透视变换应用 | 图像透视变换应用 - warpPerspective</br>获取透视变换矩阵 - getPerspectiveTransform</br>获取透视变换矩阵 - findHomography | [C++](../../CPP/codes/day076.cpp) / [Python](../../Python/day076.py) |
+| 077 | 视频读写与处理 | 视频读写与处理 - VideoCapture | [C++](../../CPP/codes/day077.cpp) / [Python](../../Python/day077.py) |
+| 078 | 识别与跟踪视频中的特定颜色对象 | 色彩转换BGR2HSV</br>inRange提取颜色区域mask</br>对mask区域进行二值分析得到位置与轮廓信息</br>绘制外接椭圆与中心位置 | [C++](../../CPP/codes/day078.cpp) / [Python](../../Python/day078.py) |
+| 079 | 视频分析-背景/前景提取（运动分析） | 基于高斯混合模型GMM- createBackgroundSubtractorMOG2</br>基于最近邻KNN - createBackgroundSubtractorKNN | [C++](../../CPP/codes/day079.cpp) / [Python](../../Python/day079.py) |
+| 080 | 视频分析-背景消除与前景ROI提取 | 初始化背景建模对象GMM</br>读取视频一帧</br>使用背景建模消除生成mask</br>对mask进行轮廓分析提取ROI | [C++](../../CPP/codes/day080.cpp) / [Python](../../Python/day080.py) |
+| 081 | 角点检测–Harris角点检测 | Harris角点检测 - cornerHarris | [C++](../../CPP/codes/day081.cpp) / [Python](../../Python/day081.py) |
+| 082 | 角点检测–shi-tomas角点检测 | shi-tomas角点检测 - goodFeaturesToTrack | [C++](../../CPP/codes/day082.cpp) / [Python](../../Python/day082.py) |
+| 083 | 角点检测–亚像素级别角点检测 | 亚像素级别角点检测 - cornerSubPix | [C++](../../CPP/codes/day083.cpp) / [Python](../../Python/day083.py) |
+| 084 | 视频分析-移动对象的KLT光流跟踪算法01 | 移动对象的KLT光流跟踪算法 - calcOpticalFlowPyrLK | [C++](../../CPP/codes/day084.cpp) / [Python](../../Python/day084.py) |
+| 085 | 视频分析-移动对象的KLT光流跟踪算法02 | 删除静止点与绘制跟踪轨迹 - calcOpticalFlowPyrLK | [C++](../../CPP/codes/day085.cpp) / [Python](../../Python/day085.py) |
+| 086 | 视频分析–稠密光流分析 | 稠密光流分析 - calcOpticalFlowFarneback</br>笛卡尔坐标系转到极坐标系 - cartToPolar | [C++](../../CPP/codes/day086.cpp) / [Python](../../Python/day086.py) |
+| 087 | 视频分析–基于帧差法实现移动对象分析 | 基于帧差法实现移动对象分析 - 两帧差方法与三帧差方法 | [C++](../../CPP/codes/day087.cpp) / [Python](../../Python/day087.py) |
+| 088 | 视频分析–基于均值迁移的对象移动分析 | 基于均值迁移的对象移动分析 - meanShift</br>打开一个窗口通过交互选择ROI - selectROI | [C++](../../CPP/codes/day088.cpp) / [Python](../../Python/day088.py) |
+| 089 | 视频分析–基于连续自适应均值迁移（CAM）的对象移动分析 | 基于连续自适应均值迁移（CAM）的对象移动分析 - CamShift | [C++](../../CPP/codes/day089.cpp) / [Python](../../Python/day089.py) |
+| 090 | 视频分析–对象移动轨迹绘制 | 初始化路径点数组</br>对每帧的预测轮廓提取中心位置添加到路径数组</br>绘制路径曲线 | [C++](../../CPP/codes/day090.cpp) / [Python](../../Python/day090.py) |
+| 091 | 对象检测–HAAR级联检测器使用 | HAAR级联检测器使用 - cv.CascadeClassifier.detectMultiScale | [C++](../../CPP/codes/day091.cpp) / [Python](../../Python/day091.py) |
+| 092 | 对象检测-HAAR特征介绍 | HAAR特征介绍与HAAR级联检测器的特性 | [C++](../../CPP/codes/day092.cpp) / [Python](../../Python/day092.py) |
+| 093 | 对象检测-LBP特征介绍 | LBP特征介绍 - lbpcascades | [C++](../../CPP/codes/day093.cpp) / [Python](../../Python/day093.py) |
+| 094 | ORB FAST特征关键点检测 | ORB FAST特征关键点检测 - ORB_create、orb.detect</br>画出关键点 - drawKeypoints | [C++](../../CPP/codes/day094.cpp) / [Python](../../Python/day094.py) |
+| 095 | ORB BRIEF特征描述子 匹配 | ORB BRIEF特征描述子 - ORB_create、orb.detectAndCompute</br>画出匹配的结果 - drawMatches</br>暴力匹配 - BFMatcher_create、bf.match | [C++](../../CPP/codes/day095.cpp) / [Python](../../Python/day095.py) |
+| 096 | 描述子匹配 | FLANN匹配 - FlannBasedMatcher、flann.match | [C++](../../CPP/codes/day096.cpp) / [Python](../../Python/day096.py) |
+| 097 | 基于描述子匹配的已知对象定位 | 特征点匹配之后，使用透视变换获得场景图像中对象位置 | [C++](../../CPP/codes/day097.cpp) / [Python](../../Python/day097.py) |
+| 098 | SIFT特征提取 – 关键点提取 | 关键点提取 - SIFT_create、sift.detect | [C++](../../CPP/codes/day098.cpp) / [Python](../../Python/day098.py) |
+| 099 | SIFT特征提取 – 描述子生成 | 描述子生成 - SIFT_create、sift.detectAndCompute | [C++](../../CPP/codes/day099.cpp) / [Python](../../Python/day099.py) |
+| 100 | HOG特征与行人检测 | HOG描述子 - HOGDescriptor</br>设置SVM检测器 - hog.setSVMDetector</br>获取HOG特征行人检测模型-  HOGDescriptor_getDefaultPeopleDetector</br>多尺度检测 - hog.detectMultiScale | [C++](../../CPP/codes/day100.cpp) / [Python](../../Python/day100.py) |
+| 101 | HOG特征描述子 – 多尺度检测 | 多尺度检测 - hog.detectMultiScale | [C++](../../CPP/codes/day101.cpp) / [Python](../../Python/day101.py) |
+| 102 | HOG特征描述子 – 提取描述子 | 提取描述子 - hog.compute | [C++](../../CPP/codes/day102.cpp) / [Python](../../Python/day102.py) |
+| 103 | HOG特征描述子 – 使用描述子特征生成样本数据 | 使用描述子特征生成样本数据 | [C++](../../CPP/codes/day103.cpp) / [Python](../../Python/day103.py) |
+| 104 | SVM线性分类器 | SVM线性分类器 - cv.ml.SVM_create、svm.train、svm.save | [C++](../../CPP/codes/day104.cpp) / [Python](../../Python/day104.py) |
+| 105 | HOG特征描述子 – 使用HOG进行对象检测 | 使用HOG进行对象检测 - cv.ml.SVM_load、svm.predict | [C++](../../CPP/codes/day105.cpp) / [Python](../../Python/day105.py) |
+| 106 | AKAZE特征与描述子 | AKAZE特征与描述子 - AKAZE_create、zkaze.detectAndCompute | [C++](../../CPP/codes/day106.cpp) / [Python](../../Python/day106.py) |
+| 107 | Brisk特征提取与描述子匹配 | Brisk特征提取与描述子匹配 - BRISK_create、brisk.detectAndCompute | [C++](../../CPP/codes/day107.cpp) / [Python](../../Python/day107.py) |
+| 108 | 特征提取之关键点检测 - GFTTDetector | GFTTDetector - GFTTDetector_create、gftt.detect | [C++](../../CPP/codes/day108.cpp) / [Python](../../Python/day108.py) |
+| 109 | BLOB特征分析 – SimpleBlobDetector | SimpleBlobDetector - SimpleBlobDetector_Params</br>SimpleBlobDetector_create、blob_detector.detect | [C++](../../CPP/codes/day109.cpp) / [Python](../../Python/day109.py) |
+| 110 | KMeans 数据分类 | 数据分类 - kmeans | [C++](../../CPP/codes/day110.cpp) / [Python](../../Python/day110.py) |
+| 111 | KMeans 图像分割 | 图像分割 - kmeans | [C++](../../CPP/codes/day111.cpp) / [Python](../../Python/day111.py) |
+| 112 | KMeans 图像分割 – 背景替换 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定指定分类数目</br>取左上角的label得到背景cluster index</br>生成mask区域，然后高斯模糊进行背景替换 | [C++](../../CPP/codes/day112.cpp) / [Python](../../Python/day112.py) |
+| 113 | KMeans 图像分割 – 主色彩提取 | 读入图像建立KMenas样本</br>使用KMeans图像分割，指定分类数目</br>统计各个聚类占总像素比率，根据比率建立色卡 | [C++](../../CPP/codes/day113.cpp) / [Python](../../Python/day113.py) |
+| 114 | KNN算法介绍 | KNN算法介绍 - cv.ml.KNearest_create</br>knn.train、knn.save | [C++](../../CPP/codes/day114.cpp) / [Python](../../Python/day114.py) |
+| 115 | KNN算法使用 | KNN算法使用 - cv.ml.KNearest_load、knn.findNearest | [C++](../../CPP/codes/day115.cpp) / [Python](../../Python/day115.py) |
 | 116 | 决策树算法介绍与使用 | 随机森林(Random Trees) - cv.ml.RTrees_create、rt.predict</br>强化分类(Boosting Classification) - cv.ml.Boost_create、rt.predict、boost.train、boost.predict | C++ / [Python](../../Python/day116.py) |
 | 117 | 图像均值漂移分割 | 图像均值漂移分割 - pyrMeanShiftFiltering | C++ / [Python](../../Python/day117.py) |
-| 118 | Grabcut图像分割 | Grabcut图像分割 - grabCut | C++ / [Python](../../Python/day118.py) |
-| 119 | Grabcut图像分割 – 背景替换 | ROI区域选择、Grabcut对象分割、Mask生成</br>使用mask，实现背景与前景的高斯权重融合 | C++ / [Python](../../Python/day119.py) |
-| 120 | 二维码检测与识别 | 二维码检测与识别 - cv.QRCodeDetector</br>qrcode_detector.detectAndDecode</br>qrcode_detector.detect、qrcode_detector.decode | C++ / [Python](../../Python/day120.py) |
-| 121 | OpenCV DNN 获取导入模型各层信息 | cv.dnn.readNet、net.getLayerNames</br>net.getLayerId、net.getLayer | C++ / [Python](../../Python/day121.py) |
-| 122 | OpenCV DNN 实现图像分类 | cv.dnn.readNetFromCaffe、cv.dnn.blobFromImage</br>net.setInput、net.forward、net.getPerfProfile | C++ / [Python](../../Python/day122.py) |
-| 123 | OpenCV DNN 为模型运行设置目标设备与计算后台 | net.setPreferableBackend</br>net.setPreferableTarget | C++ / [Python](../../Python/day123.py) |
-| 124 | OpenCV DNN 基于SSD实现对象检测 | 基于SSD实现对象检测 | C++ / [Python](../../Python/day124.py) |
-| 125 | OpenCV DNN 基于SSD实现实时视频检测 | 基于SSD实现实时视频检测 | C++ / [Python](../../Python/day125.py) |
-| 126 | OpenCV DNN 基于残差网络的人脸检测 | 基于残差网络的人脸检测 | C++ / [Python](../../Python/day126.py) |
-| 127 | OpenCV DNN 基于残差网络的视频人脸检测 | 基于残差网络的视频人脸检测 | C++ / [Python](../../Python/day127.py) |
-| 128 | OpenCV DNN 直接调用tensorflow的导出模型 | 直接调用tensorflow的导出模型 | C++ / [Python](../../Python/day128.py) |
-| 129 | OpenCV DNN 调用openpose模型实现姿态评估 | 调用openpose模型实现姿态评估 | C++ / [Python](../../Python/day129.py) |
-| 130 | OpenCV DNN 支持YOLO对象检测网络运行 | 支持YOLO对象检测网络运行 - cv.dnn.readNetFromDarknet</br>net.getUnconnectedOutLayersNames、cv.dnn.NMSBoxes | C++ / [Python](../../Python/day130.py) |
-| 131 | OpenCV DNN 支持YOLOv3-tiny版本实时对象检测 | 支持YOLOv3-tiny版本实时对象检测 | C++ / [Python](../../Python/day131.py) |
-| 132 | OpenCV DNN单张与多张图像的推断 | DNN单张与多张图像的推断 - cv.dnn.blobFromImage、cv.dnn.blobFromImages | C++ / [Python](../../Python/day132.py) |
-| 133 | OpenCV DNN 图像颜色化模型使用 | 图像颜色化模型使用 | C++ / [Python](../../Python/day133.py) |
-| 134 | OpenCV DNN ENet实现图像分割 | ENet实现图像分割 - cv.dnn.readNetFromTorch | C++ / [Python](../../Python/day134.py) |
-| 135 | OpenCV DNN 实时快速的图像风格迁移 | 实时快速的图像风格迁移 | C++ / [Python](../../Python/day135.py) |
+| 118 | Grabcut图像分割 | Grabcut图像分割 - grabCut | [C++](../../CPP/codes/day118.cpp) / [Python](../../Python/day118.py) |
+| 119 | Grabcut图像分割 – 背景替换 | ROI区域选择、Grabcut对象分割、Mask生成</br>使用mask，实现背景与前景的高斯权重融合 | [C++](../../CPP/codes/day119.cpp) / [Python](../../Python/day119.py) |
+| 120 | 二维码检测与识别 | 二维码检测与识别 - cv.QRCodeDetector</br>qrcode_detector.detectAndDecode</br>qrcode_detector.detect、qrcode_detector.decode | [C++](../../CPP/codes/day120.cpp) / [Python](../../Python/day120.py) |
+| 121 | OpenCV DNN 获取导入模型各层信息 | cv.dnn.readNet、net.getLayerNames</br>net.getLayerId、net.getLayer | [C++](../../CPP/codes/day121.cpp) / [Python](../../Python/day121.py) |
+| 122 | OpenCV DNN 实现图像分类 | cv.dnn.readNetFromCaffe、cv.dnn.blobFromImage</br>net.setInput、net.forward、net.getPerfProfile | [C++](../../CPP/codes/day122.cpp) / [Python](../../Python/day122.py) |
+| 123 | OpenCV DNN 为模型运行设置目标设备与计算后台 | net.setPreferableBackend</br>net.setPreferableTarget | [C++](../../CPP/codes/day123.cpp) / [Python](../../Python/day123.py) |
+| 124 | OpenCV DNN 基于SSD实现对象检测 | 基于SSD实现对象检测 | [C++](../../CPP/codes/day124.cpp) / [Python](../../Python/day124.py) |
+| 125 | OpenCV DNN 基于SSD实现实时视频检测 | 基于SSD实现实时视频检测 | [C++](../../CPP/codes/day125.cpp) / [Python](../../Python/day125.py) |
+| 126 | OpenCV DNN 基于残差网络的人脸检测 | 基于残差网络的人脸检测 | [C++](../../CPP/codes/day126.cpp) / [Python](../../Python/day126.py) |
+| 127 | OpenCV DNN 基于残差网络的视频人脸检测 | 基于残差网络的视频人脸检测 | [C++](../../CPP/codes/day127.cpp) / [Python](../../Python/day127.py) |
+| 128 | OpenCV DNN 直接调用tensorflow的导出模型 | 直接调用tensorflow的导出模型 | [C++](../../CPP/codes/day128.cpp) / [Python](../../Python/day128.py) |
+| 129 | OpenCV DNN 调用openpose模型实现姿态评估 | 调用openpose模型实现姿态评估 | [C++](../../CPP/codes/day129.cpp) / [Python](../../Python/day129.py) |
+| 130 | OpenCV DNN 支持YOLO对象检测网络运行 | 支持YOLO对象检测网络运行 - cv.dnn.readNetFromDarknet</br>net.getUnconnectedOutLayersNames、cv.dnn.NMSBoxes | [C++](../../CPP/codes/day130.cpp) / [Python](../../Python/day130.py) |
+| 131 | OpenCV DNN 支持YOLOv3-tiny版本实时对象检测 | 支持YOLOv3-tiny版本实时对象检测 | [C++](../../CPP/codes/day131.cpp) / [Python](../../Python/day131.py) |
+| 132 | OpenCV DNN单张与多张图像的推断 | DNN单张与多张图像的推断 - cv.dnn.blobFromImage、cv.dnn.blobFromImages | [C++](../../CPP/codes/day132.cpp) / [Python](../../Python/day132.py) |
+| 133 | OpenCV DNN 图像颜色化模型使用 | 图像颜色化模型使用 | [C++](../../CPP/codes/day133.cpp) / [Python](../../Python/day133.py) |
+| 134 | OpenCV DNN ENet实现图像分割 | ENet实现图像分割 - cv.dnn.readNetFromTorch | [C++](../../CPP/codes/day134.cpp) / [Python](../../Python/day134.py) |
+| 135 | OpenCV DNN 实时快速的图像风格迁移 | 实时快速的图像风格迁移 | [C++](../../CPP/codes/day135.cpp) / [Python](../../Python/day135.py) |
 | 136 | OpenCV DNN 解析网络输出结果 | 解析网络输出结果 - 小结（无代码） | C++ / [Python](../../Python/day136.py) |
-| 137 | OpenCV DNN 实现性别与年龄预测 | 实现性别与年龄预测 | C++ / [Python](../../Python/day137.py) |
+| 137 | OpenCV DNN 实现性别与年龄预测 | 实现性别与年龄预测 | [C++](../../CPP/codes/day137.cpp) / [Python](../../Python/day137.py) |
 | 138 | OpenCV DNN 使用OpenVINO加速 | 使用OpenVINO加速 - 介绍（无代码） | C++ / [Python](../../Python/day138.py) |

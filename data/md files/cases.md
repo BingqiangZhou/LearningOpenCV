@@ -2,7 +2,7 @@
  * @Author       : Bingqiang Zhou
  * @Date         : 2021-09-06 13:50:59
  * @LastEditors  : Bingqiang Zhou
- * @LastEditTime : 2021-09-09 10:34:06
+ * @LastEditTime : 2021-09-09 16:38:16
  * @Description  : 
 -->
 
@@ -11,7 +11,7 @@
 | case | title | workflow | code |
 | :---: | :---: | :--- | :---: |
 | 案例一 | 识别0～9印刷体数字 | 1. 二值化输入的图像</br>2. 提取字符RoI区域</br>3. 对RoI提取特征向量</br>4. 与模版特征向量进行对比，计算L2距离</br>5. 最小距离对应的模版的标签即为该字符预测结果 |[Python](../../Python/case1) |
-| 案例二 | 二值分析: 车道线检测 | [Python](../../Python/case2) |
-| 案例三 | OpenCV DNN:人脸识别 | [Python](../../Python/case3) |
-| 案例四 | 视频处理: 绿幕抠图 | [Python](../../Python/case4) |
-| 案例五 | 图像处理: 分水岭分割案例 | [Python](../../Python/case5) |
+| 案例二 | 二值分析: 车道线检测 | 1. 对灰度图进行边缘检测，如Canny</br>2. 通过设置RoI区域以及根据轮廓、轮廓面积与周长、边框(bbox)角度等量去掉一些干扰</br>3. 进行直线拟合</br>4. 根据斜率等其他量再去掉一些干扰</br>5. 根据边框(bbox)等高宽等信息，计算出直线初始点以及结束点，画出直线(车道线) |[Python](../../Python/case2) |
+| 案例三 | OpenCV DNN:人脸识别 | - | [Python](../../Python/case3) |
+| 案例四 | 视频处理: 绿幕抠图 | - | [Python](../../Python/case4) |
+| 案例五 | 图像处理: 分水岭分割案例 | - | [Python](../../Python/case5) |

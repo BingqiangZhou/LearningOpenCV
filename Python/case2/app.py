@@ -2,7 +2,7 @@
 Author       : Bingqiang Zhou
 Date         : 2021-09-09 14:33:45
 LastEditors  : Bingqiang Zhou
-LastEditTime : 2021-09-09 16:33:59
+LastEditTime : 2021-09-09 22:56:10
 Description  : 案例二 - 车道线检测
     算法基本思想说明：
     传统的车道线检测，多数是基于霍夫直线检测，其实这个里面有个很大的误区，
@@ -41,7 +41,7 @@ def process(image):
         [vx, vy, x, y] = cv.fitLine(contours[i], cv.DIST_L1, 0, 0.01, 0.01)
         # print(vx, vy, x, y)
         k = vy / vx
-        if 1e-3 < abs(k) < 1e3:
+        if 1e-5 < abs(k) < 1e5: # 控制斜率不过大也不过小
             c = y - k * x
             dy = k * b + c
             y2 = y + dy
